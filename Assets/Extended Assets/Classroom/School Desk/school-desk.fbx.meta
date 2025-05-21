@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 6c8719792f7b3e9408748d974201829e
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 8987367561325328249
+    second: desk.010|chair.010|chair.010|CameraShakify.v2_the_wedding|chair.010|Came
+  - first:
+      74: -7937443939337779530
+    second: desk.010|chair.010|chair.010|CameraShakify.v2_walk_to_the_store|chair.01
+  - first:
+      74: 5276144539453739666
+    second: "desk.010|chair.010|chair.010|\u7ACB\u65B9\u4F53.013Action|chair.010|\u7ACB\u65B9\u4F53.013"
+  - first:
+      74: 2423386038440568290
+    second: desk.010|desk.010|desk.010|CameraShakify.v2_the_wedding|desk.010|CameraS
+  - first:
+      74: -7297193688577436780
+    second: desk.010|desk.010|desk.010|CameraShakify.v2_walk_to_the_store|desk.010|C
+  - first:
+      74: 5533120686439299666
+    second: "desk.010|desk.010|desk.010|\u7ACB\u65B9\u4F53.013Action|desk.010|\u7ACB\u65B9\u4F53.013Act"
+  - first:
+      74: 8083228316417802488
+    second: chair.010|chair.010|chair.010|CameraShakify.v2_the_wedding|chair.010|Came
+  - first:
+      74: 5484863196012260297
+    second: chair.010|chair.010|chair.010|CameraShakify.v2_walk_to_the_store|chair.01
+  - first:
+      74: -3268660187359701207
+    second: "chair.010|chair.010|chair.010|\u7ACB\u65B9\u4F53.013Action|chair.010|\u7ACB\u65B9\u4F53.013"
+  - first:
+      74: 3404789922867024139
+    second: chair.010|desk.010|desk.010|CameraShakify.v2_the_wedding|desk.010|CameraS
+  - first:
+      74: 493194144471265599
+    second: chair.010|desk.010|desk.010|CameraShakify.v2_walk_to_the_store|desk.010|C
+  - first:
+      74: -8115925715530231399
+    second: "chair.010|desk.010|desk.010|\u7ACB\u65B9\u4F53.013Action|desk.010|\u7ACB\u65B9\u4F53.013Act"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: f941be7335269c3478b397ead8fada8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30DE\u30C6\u30EA\u30A2\u30EB.021"
+    second: {fileID: 2100000, guid: aa88286e69c3e634d95e7b662f33228b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30DE\u30C6\u30EA\u30A2\u30EB.022"
+    second: {fileID: 2100000, guid: 1022828adade17c42a4a78aef568aa42, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: desk.010
+    second: {fileID: 2800000, guid: 73b2876f8416a2647b27929b8f2db246, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

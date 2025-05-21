@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3128453716595690931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3128453716595690933}
+  - component: {fileID: 3128453716595690930}
+  m_Layer: 0
+  m_Name: Training
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3128453716595690933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3128453716595690931}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3128453716595690930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3128453716595690931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfc8b0131c7be74e867b523f68d8f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 11400000, guid: f0f451d7495dddc4ab36b7108432f163, type: 2}
+  WPM: {fileID: 11400000, guid: 4da69f4e19079044ea484ec00c86fb3f, type: 2}
+  volume: {fileID: 11400000, guid: 526d35bd406931143be5a52e89c7d2ce, type: 2}
+  time: {fileID: 11400000, guid: c7f226e948ef7eb4c979af188165a3b1, type: 2}
+  NPC1: {fileID: 11400000, guid: f8e650723962a254cb41e5b30d086c1c, type: 2}
+  NPC2: {fileID: 11400000, guid: a288804068c08394f97d394c91ae6a29, type: 2}
+  NPC3: {fileID: 11400000, guid: 1acab1600b3c40b43bc7100ab4ea2e48, type: 2}
+  NPC4: {fileID: 11400000, guid: a55fe9a52bf0c12488c1d5d6b0f22441, type: 2}
+  NPC5: {fileID: 11400000, guid: 1ff10a13608b0c9449ba55143f6d63f5, type: 2}
+  leftHand: {fileID: 11400000, guid: aeca039298ed9254aa18a8a7c85517ff, type: 2}
+  rightHand: {fileID: 11400000, guid: 369dc8f7d8ae5d240a44dfd8f55100ac, type: 2}
+  timerCanvas: {fileID: 0}
+  statistic: {fileID: 0}
+  resultUI: {fileID: 0}
+  preparationUI: {fileID: 0}
+  whiteboardUI: {fileID: 0}
+  speechRecognition: {fileID: 0}
+  eyeContactSystem: {fileID: 0}
+  checkVolumeSystem: {fileID: 0}
+  checkWPMSystem: {fileID: 0}
+  fillerWordDetector: {fileID: 0}
+  handMovementSystem: {fileID: 0}
+  timer: {fileID: 0}
+  chair1: {fileID: 0}
+  chair2: {fileID: 0}
+  chair3: {fileID: 0}
+  chair4: {fileID: 0}
+  chair5: {fileID: 0}
+  Char_NPC1: {fileID: 0}
+  Char_NPC2: {fileID: 0}
+  Char_NPC3: {fileID: 0}
+  Char_NPC4: {fileID: 0}
+  Char_NPC5: {fileID: 0}
+  _fade: {fileID: 0}
+  canvasGroup: {fileID: 0}
