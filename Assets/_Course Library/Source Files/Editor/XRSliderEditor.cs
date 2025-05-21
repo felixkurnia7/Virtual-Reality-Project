@@ -1,9 +1,9 @@
 ﻿using UnityEditor;
-using UnityEditor.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Content.Interaction;
 
 [CustomEditor(typeof(XRSlider))]
-public class XRSliderEditor : XRBaseInteractableEditor
+public class XRSliderEditor : UnityEditor.XR.Interaction.Toolkit.Interactables.XRBaseInteractableEditor
 {
     private SerializedProperty handle = null;
     private SerializedProperty start = null;

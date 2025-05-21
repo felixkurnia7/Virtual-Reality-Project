@@ -1,9 +1,9 @@
 ﻿using UnityEditor;
-using UnityEditor.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Content.Interaction;
 
 [CustomEditor(typeof(XRLever))]
-public class XRLeverEditor : XRBaseInteractableEditor
+public class XRLeverEditor : UnityEditor.XR.Interaction.Toolkit.Interactables.XRBaseInteractableEditor
 {
     private SerializedProperty handle = null;
     private SerializedProperty defaultValue = null;

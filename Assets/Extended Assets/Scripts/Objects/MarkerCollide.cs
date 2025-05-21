@@ -20,7 +20,7 @@ public class MarkerCollide : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         //code to get the velocity magnitude and convert to volume sound
-        volumeSound = rb.velocity.magnitude; //maginitude converts velocity (Vector3) to a float. Refer to Unity API for more info
+        volumeSound = rb.linearVelocity.magnitude; //maginitude converts velocity (Vector3) to a float. Refer to Unity API for more info
         //Debug.Log(volumeSound); //optional test
 
         audioSource.PlayOneShot(markerDropSound, volumeSound);

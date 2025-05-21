@@ -1,9 +1,9 @@
 ﻿using UnityEditor;
-using UnityEditor.XR.Interaction.Toolkit;
+
 using UnityEngine.XR.Content.Interaction;
 
 [CustomEditor(typeof(XRKnob))]
-public class XRKnobEditor : XRBaseInteractableEditor
+public class XRKnobEditor : UnityEditor.XR.Interaction.Toolkit.Interactables.XRBaseInteractableEditor
 {
     private SerializedProperty knobTransform = null;
     private SerializedProperty minimum = null;

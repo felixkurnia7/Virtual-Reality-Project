@@ -4,7 +4,7 @@ using UnityEngine;
 using System.IO;
 using TMPro;
 using UnityEngine.UI;
-using HuggingFace.API;
+//using HuggingFace.API;
 using System;
 
 public class SpeechRecognition : MonoBehaviour
@@ -146,21 +146,21 @@ public class SpeechRecognition : MonoBehaviour
 
     private void SendRecording()
     {
-        HuggingFaceAPI.AutomaticSpeechRecognition(bytes, response =>
-        {
-            Debug.Log(response);
-            //textSO.text += response;
-            textSO.text += " " + response;
-            //text.color = Color.white;
-            //text.text = textSO.text;
-            //startButton.interactable = true;
-            CheckWMP?.Invoke(response);
-            CheckFillerWord?.Invoke(response);
-        }, error =>
-        {
-            Debug.Log(error);
-            //startButton.interactable = true;
-        });
+        //HuggingFaceAPI.AutomaticSpeechRecognition(bytes, response =>
+        //{
+        //    Debug.Log(response);
+        //    //textSO.text += response;
+        //    textSO.text += " " + response;
+        //    //text.color = Color.white;
+        //    //text.text = textSO.text;
+        //    //startButton.interactable = true;
+        //    CheckWMP?.Invoke(response);
+        //    CheckFillerWord?.Invoke(response);
+        //}, error =>
+        //{
+        //    Debug.Log(error);
+        //    //startButton.interactable = true;
+        //});
     }
 
     private byte[] EncodeAsWAV(float[] samples, int frequency, int channels)
