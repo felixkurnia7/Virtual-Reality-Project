@@ -12,7 +12,7 @@ scopes = {
 	"last_search.8040E7BB" = ""
 	"OpenInspectorPreview.8040E7BB" = "0"
 	"currentGroup.8040E7BB" = "all"
-	"picker_window_position_offset.075BCD15" = "127;443;320;550"
+	"picker_window_position_offset.075BCD15" = "-916;140;320;550"
 	"picker_visibility_flags.075BCD15" = "264"
 	"picker_item_size.075BCD15" = "96"
 	"picker_inspector.075BCD15" = "0"
@@ -72,6 +72,10 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"primary"
+	"acti"
+	"left ac"
+	"move ino"
 ]
 searchItemFavorites = [
 ]

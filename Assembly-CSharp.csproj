@@ -81,10 +81,11 @@
     <Compile Include="Assets\Extended Assets\Scripts\SO\IntValue.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\MenuActivationUI.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\First Person Player\SceneSwitchGen.cs" />
-    <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleVisibility.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow.cs" />
+    <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleVisibility.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\First Person Player\MouseLook.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\CheckTimerValue.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\RunDecoderState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Bored\CheckBoredTimer.cs" />
     <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\ClawMachine.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Z Axis -1\Drawer_Pull_Zopp.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnButtonPress.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\ExitGame.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipR.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\TestingState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\SpeechRecognitionUI.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Whiteboard.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\VolumeMeterWithClip.cs" />
@@ -109,13 +111,17 @@
     <Compile Include="Assets\Extended Assets\Scripts\HeadLookAtPlayer.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Managers\SoundMixerManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\MatchRotation.cs" />
+    <Compile Include="Assets\LudicWorlds\DebugPanel\DebugPanel.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Persistence\SaveLoadSystem.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseDoor1.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Idle\CheckIdleTimer.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\Timer.cs" />
     <Compile Include="Assets\VR Body\IKFootSolver.cs" />
+    <Compile Include="Assets\LudicWorlds\StateMachine\IStateMachine.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTimedInterval.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\VolumeMeter.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\StartTranscriptionState.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\LoadDecoderState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Interested\PlayInterestedAnim.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\CheckHandMovement.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\EyeContact.cs" />
@@ -125,6 +131,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayAnimation.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Interested\CheckInterestedWPM.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LookAtPlayer.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\WhisperReadyState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\FadeOutPanel.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnVelocity.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\CheckWordPerMinute.cs" />
@@ -133,12 +140,15 @@
     <Compile Include="Assets\Extended Assets\Scripts\SO\StringValue.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Objects\BookCollide.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Managers\SoundFXManager.cs" />
+    <Compile Include="Assets\LudicWorlds\StateMachine\State.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Closed_Captions.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Persistence\IDataService.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Panel.cs" />
     <Compile Include="Assets\Scenes\TestWhisper.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Push Back Effects\HeadCollisionHandler.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\RunSpectroState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Interested\SetNPCToInterested.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\SpeechText.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ScaleObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\StickToObject.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Slide\BRGlassDoor.cs" />
@@ -151,16 +161,20 @@
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\SpeechRecognition.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\LoadingManager.cs" />
+    <Compile Include="Assets\LudicWorlds\StateMachine\GameObjectStateMachine.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RotateObject.cs" />
+    <Compile Include="Assets\LudicWorlds\StateMachine\StateMachine.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Confused\CheckConfusedWPM.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ManuallySelectObject.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Environment\SkyRotation.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Slide\opencloseSlide.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseDoor.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Audio\PlaySoundFX.cs" />
+    <Compile Include="Assets\LudicWorlds\StateMachine\IState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Persistence\JSONDataService.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\SetParticleRate.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Objects\MarkerCollide.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\MicRecorder.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRSlider.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\NPC_AI.cs" />
     <Compile Include="Assets\VR Body\AnimateOnInput.cs" />
@@ -179,6 +193,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleParticle.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Idle\CheckIdle.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\SceneTransitionManager.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\RunWhisper.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\ButtonUI.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRLever.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Confused\CheckConfusedEyeContact.cs" />
@@ -196,9 +211,12 @@
     <Compile Include="Assets\Extended Assets\Scripts\NPC AI\Idle\PlayIdleAnim.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvasOnOverlap.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipL.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\LoadSpectroState.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnCollision.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ApplyPhysics.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\SentisWhisperState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Training1.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\RunEncoderState.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayVideo.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\EyeContactUI.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\CheckVolumeSpeaking.cs" />
@@ -206,6 +224,7 @@
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Closet\ClosetopencloseDoor.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTrigger.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\SO\NPC.cs" />
+    <Compile Include="Assets\Extended Assets\Scripts\ASR\States\LoadEncoderState.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\Features\DataObservation.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\HandMovementUI.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\WordPerMinuteUI.cs" />
@@ -233,6 +252,7 @@
     <Compile Include="Assets\Extended Assets\Scripts\TestCheckVolumeNew.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
     <Compile Include="Assets\Extended Assets\Scripts\UI\PracticeSoftSkills.cs" />
+    <Compile Include="Assets\LudicWorlds\StateMachine\GameObjectState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1370,12 +1390,12 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    <Reference Include="Unity.XR.Hands.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1386,8 +1406,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Hands.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.Editor">
@@ -1414,20 +1434,28 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+    <Reference Include="Unity.XR.Hands">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Hands">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
+    <Reference Include="Unity.Sentis">
+      <HintPath>Library\ScriptAssemblies\Unity.Sentis.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sentis.iOSBLAS">
+      <HintPath>Library\ScriptAssemblies\Unity.Sentis.iOSBLAS.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Management">
@@ -1440,6 +1468,10 @@
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sentis.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Sentis.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
@@ -1514,8 +1546,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Sentis.MacBLAS">
+      <HintPath>Library\ScriptAssemblies\Unity.Sentis.MacBLAS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sentis.ONNX">
+      <HintPath>Library\ScriptAssemblies\Unity.Sentis.ONNX.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">

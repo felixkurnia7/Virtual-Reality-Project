@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\states\\starttranscriptionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\starttranscriptionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E3C062-F599-B60A-6CF8-A13E9FD7C930}|Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\samples\\xr interaction toolkit\\3.0.8\\starter assets\\scripts\\climbteleportdestinationindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E3C062-F599-B60A-6CF8-A13E9FD7C930}|Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj|solutionrelative:assets\\samples\\xr interaction toolkit\\3.0.8\\starter assets\\scripts\\climbteleportdestinationindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,19 +55,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpeechRecognition.cs",
-              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
-              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
-              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
-              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJIAAAAgAAAAAAAAAA==",
+              "Title": "StartTranscriptionState.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T08:02:51.57Z",
+              "WhenOpened": "2025-05-22T08:51:00.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RunWhisper.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:25:25.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MicRecorder.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAuwAUBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:24:40.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClimbTeleportDestinationIndicator.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Samples\\XR Interaction Toolkit\\3.0.8\\Starter Assets\\Scripts\\ClimbTeleportDestinationIndicator.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.0.8\\Starter Assets\\Scripts\\ClimbTeleportDestinationIndicator.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Samples\\XR Interaction Toolkit\\3.0.8\\Starter Assets\\Scripts\\ClimbTeleportDestinationIndicator.cs",
+              "RelativeToolTip": "Assets\\Samples\\XR Interaction Toolkit\\3.0.8\\Starter Assets\\Scripts\\ClimbTeleportDestinationIndicator.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:14:53.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpeechRecognition.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAEBdwJIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:02:51.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TeleportAnchorWithFade.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\_Course Library\\Scripts\\Testing\\TeleportAnchorWithFade.cs",
               "RelativeDocumentMoniker": "Assets\\_Course Library\\Scripts\\Testing\\TeleportAnchorWithFade.cs",
@@ -63,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "VibrateController.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\_Course Library\\Scripts\\Actions\\VibrateController.cs",
               "RelativeDocumentMoniker": "Assets\\_Course Library\\Scripts\\Actions\\VibrateController.cs",
@@ -75,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ProjectWideActionsAsset.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Editor\\ProjectWideActions\\ProjectWideActionsAsset.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Editor\\ProjectWideActions\\ProjectWideActionsAsset.cs",
@@ -88,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "XRBaseInputInteractor.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRBaseInputInteractor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRBaseInputInteractor.cs",
@@ -101,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "XRDirectInteractor.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
