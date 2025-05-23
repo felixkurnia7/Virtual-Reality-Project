@@ -132,9 +132,9 @@ public class RunDecoderState : SentisWhisperState
 
     public override void Exit()
     {
-        tokensPredictions?.Dispose();
-        cpuTokensPredictions?.Dispose();
-        whisper.EncodedAudio?.Dispose();
+        tokensPredictions.Dispose();
+        cpuTokensPredictions.Dispose();
+        whisper.EncodedAudio.Dispose();
 
         GC.Collect(); //Garbage collection
         base.Exit();

@@ -12,7 +12,6 @@ public enum WhisperStateID
     LoadEncoder,
     LoadSpectro,
     Ready,
-    TestingState,
     StartTranscription,
     RunSpectro,
     RunEncoder,
@@ -128,8 +127,8 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
     {
         base.OnDestroy();
 
-        DecoderEngine?.Dispose();
-        EncoderEngine?.Dispose();
-        SpectroEngine?.Dispose();
+        DecoderEngine.Dispose();
+        EncoderEngine.Dispose();
+        SpectroEngine.Dispose();
     }
 }

@@ -73,7 +73,7 @@ public class MicRecorder : MonoBehaviour
         ActivateMicAction.action.performed += OnActivateMicAction;        //Start Recording
         ActivateMicAction.action.canceled += OnActivateMicActionCanceled; //End Recording
         leftSelectAction.action.performed += OnLeftSelectAction;        // Playback
-        SendRecordingAction.action.canceled += OnSendRecordingAction;  // Send Recording
+        SendRecordingAction.action.performed += OnSendRecordingAction;  // Send Recording
     }
 
     // Update is called once per frame

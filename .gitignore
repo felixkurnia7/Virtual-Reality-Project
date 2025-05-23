@@ -6,3 +6,5 @@ Logs/*
 .vsconfig
 *.sln
 /Library/*
+*.onnx
+*.onnx.meta
