@@ -14,7 +14,7 @@ For eye contact, the user must look at the virtual audience for a few seconds. W
 Hand movement value is based on device controller movement with maximum value 100.
    
 To Implement the speech recognition model:
-1. Download all of the .onnx model from here.
+1. Download all of the .onnx model from <a href="https://drive.google.com/drive/folders/1Pfht0hF1S8TaZ4XhocEWLq2CBLTIA3Y3?usp=sharing">here</a>.
 2. Import the .onnx model to the project.
 3. Drag the decoder_model.onnx to the decorder model field on RunWhisper.cs
 4. Drag the encoder_model.onnx to the encoder model field on RunWhisper.cs
