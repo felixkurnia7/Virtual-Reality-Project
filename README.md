@@ -14,6 +14,7 @@ For eye contact, the user must look at the virtual audience for a few seconds. W
 
 <b>3. Hand Movement</b>
 
+<h2>How To Use</h2>
 Hand movement value is based on device controller movement with maximum value 100.
    
 To Implement the speech recognition model:
