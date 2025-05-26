@@ -3,13 +3,13 @@ It's a personal project and also for my thesis for my bachelor's degree. So, the
 There are 2 session, preparation session and training session. In preparation, users can explore the VR environment and try out the features contained in the application. In training session, users will be doing a presentation in front of virtual audiences (NPC). 
 
 There are 3 main features in this project:
-1. Speech Recognition
+<b>1. Speech Recognition</b>
 In this project, I am using Automatic Speech Recognition model from Whisper and run in local using Unity Inference AI. The AI model that I am using is Bahasa Indonesia by Cahya/Whisper-medium-id. This feature will count the words per minute, volume, and filler words.
 
-3. Eye Contact
+<b>2. Eye Contact</b>
 For eye contact, the user must look at the virtual audience for a few seconds. When fulfilled, the eye contact value will increase.
 
-4. Hand Movement
+<b>3. Hand Movement<b>
 Hand movement value is based on device controller movement with maximum value 100.
    
 To Implement the speech recognition model:
