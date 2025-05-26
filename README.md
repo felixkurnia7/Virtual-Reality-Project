@@ -5,7 +5,7 @@ There are 2 session, preparation session and training session. In preparation, u
 There are 3 main features in this project:
 
 <b>1. Speech Recognition</b>
-In this project, I am using Automatic Speech Recognition model from Whisper and run in local using <a href="https://huggingface.co/unity/inference-engine-whisper-tiny">Unity Inference AI</a>. The AI model that I am using is Bahasa Indonesia by Cahya/Whisper-medium-id. This feature will count the words per minute, volume, and filler words.
+In this project, I am using Automatic Speech Recognition model from Whisper and run in local using <a href="https://huggingface.co/unity/inference-engine-whisper-tiny">Unity Inference AI</a>. The AI model that I am using is Bahasa Indonesia by <a href="https://huggingface.co/cahya/whisper-medium-id">Cahya/Whisper-medium-id</a>. For the implementation, it based on <a href="https://www.patreon.com/posts/project-source-107788463">Ludic Worlds</a> and I did some modification for my project. This feature will count the words per minute, volume, and filler words.
 
 <b>2. Eye Contact</b>
 For eye contact, the user must look at the virtual audience for a few seconds. When fulfilled, the eye contact value will increase.
@@ -23,4 +23,4 @@ To Implement the speech recognition model:
 7. Hold secondary button to start recording and release it to stop recording
 8. Press primary button to transcibe and the text will appear in a few seconds.
 
-Nb: Because this is an on-going project, so there will be a lot of bug or problem. I am still trying to finish this project.
+<b>Nb: Because this is an on-going project, so there will be a lot of bug or problem. I am still trying to finish this project.</b>
