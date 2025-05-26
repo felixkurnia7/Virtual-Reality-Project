@@ -1,5 +1,5 @@
 using LudicWorlds;
-using Unity.Sentis;
+
 using UnityEngine;
 using System.Collections;
 
@@ -10,7 +10,7 @@ public class RunEncoderState : SentisWhisperState
     IEnumerator m_Schedule;
     private int layerCount = 0;
 
-    Tensor<float> encodedAudio;
+    Unity.InferenceEngine.Tensor<float> encodedAudio;
 
     // Start is called before the first frame update
     public RunEncoderState(IStateMachine<WhisperStateID> stateMachine) : base(stateMachine, WhisperStateID.RunEncoder, WhisperStateID.RunDecoder)
@@ -64,7 +64,7 @@ public class RunEncoderState : SentisWhisperState
     private void ReadOutput()
     {
         Debug.Log("-> ReadOutput() - Number of layers: " + layerCount);
-        encodedAudio = whisper.EncoderEngine.PeekOutput() as Tensor<float>;
+        encodedAudio = whisper.EncoderEngine.PeekOutput() as Unity.InferenceEngine.Tensor<float>;
         whisper.EncodedAudio = encodedAudio.ReadbackAndClone();
         stage = 3;
     }

@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\starttranscriptionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\starttranscriptionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.sentis@ac6218276191\\Runtime\\Core\\Internals\\Debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.sentis@ac6218276191\\Runtime\\Core\\Internals\\Debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\states\\rundecoderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\rundecoderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\ludicworlds\\statemachine\\gameobjectstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\ludicworlds\\statemachine\\gameobjectstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\testingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\testingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\rundecoderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\rundecoderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\whisperreadystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\whisperreadystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\features\\speechrecognition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\starttranscriptionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\starttranscriptionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\runencoderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\runencoderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\states\\runspectrostate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\runspectrostate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.sentis@ac6218276191\\Runtime\\Core\\Internals\\Debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.sentis@ac6218276191\\Runtime\\Core\\Internals\\Debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\_course library\\scripts\\testing\\teleportanchorwithfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,6 +69,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\TestingState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Extended Assets\\Scripts\\ASR\\States\\TestingState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,11 +82,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "WhisperReadyState.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:58:17.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RunSpectroState.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:44:29.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RunEncoderState.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:44:25.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Debug.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.sentis@ac6218276191\\Runtime\\Core\\Internals\\Debug.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.sentis@ac6218276191\\Runtime\\Core\\Internals\\Debug.cs",
@@ -93,14 +141,13 @@
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunDecoderState.cs",
               "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunDecoderState.cs",
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunDecoderState.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAxwIQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAxwIoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:37:55.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:37:55.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "SceneTransitionManager.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\SceneTransitionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\SceneTransitionManager.cs",
@@ -108,24 +155,23 @@
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\SceneTransitionManager.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:29:16.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:29:16.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "GameObjectStateMachine.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
               "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
               "RelativeToolTip": "Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T09:20:34.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "TestingState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\TestingState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\TestingState.cs",
@@ -133,24 +179,24 @@
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\TestingState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:51:53.156Z"
+              "WhenOpened": "2025-05-22T08:51:53.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "StartTranscriptionState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
               "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAA6wBoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:51:00.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:51:00.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ProjectWideActionsAsset.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Editor\\ProjectWideActions\\ProjectWideActionsAsset.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Editor\\ProjectWideActions\\ProjectWideActionsAsset.cs",
@@ -158,11 +204,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Editor\\ProjectWideActions\\ProjectWideActionsAsset.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T07:02:36.109Z"
+              "WhenOpened": "2025-05-21T07:02:36.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "XRBaseInputInteractor.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRBaseInputInteractor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRBaseInputInteractor.cs",
@@ -170,11 +217,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRBaseInputInteractor.cs",
               "ViewState": "AgIAAIABAAAAAAAAAAAwwI4BAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:42:10.603Z"
+              "WhenOpened": "2025-05-21T06:42:10.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "XRDirectInteractor.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
@@ -182,37 +230,37 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@7e188ec401ea\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAAAHQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:41:40.492Z"
+              "WhenOpened": "2025-05-21T06:41:40.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RunWhisper.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
               "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA+wEwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAxwEQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:25:25.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:25:25.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MicRecorder.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
               "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAqwAUBAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAAAJwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T08:24:40.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ClimbTeleportDestinationIndicator.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Samples\\XR Interaction Toolkit\\3.0.8\\Starter Assets\\Scripts\\ClimbTeleportDestinationIndicator.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.0.8\\Starter Assets\\Scripts\\ClimbTeleportDestinationIndicator.cs",
@@ -224,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "SpeechRecognition.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
@@ -232,12 +280,11 @@
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\Features\\SpeechRecognition.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAAAAAJIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T08:02:51.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T08:02:51.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "TeleportAnchorWithFade.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\_Course Library\\Scripts\\Testing\\TeleportAnchorWithFade.cs",
               "RelativeDocumentMoniker": "Assets\\_Course Library\\Scripts\\Testing\\TeleportAnchorWithFade.cs",
@@ -249,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "VibrateController.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\_Course Library\\Scripts\\Actions\\VibrateController.cs",
               "RelativeDocumentMoniker": "Assets\\_Course Library\\Scripts\\Actions\\VibrateController.cs",

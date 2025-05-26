@@ -1549,6 +1549,7 @@ MonoBehaviour:
   spectroAsset: {fileID: 5022602860645237092, guid: 8f1d2c0d8d526f74abd07429b1211041,
     type: 3}
   vocabJson: {fileID: 4900000, guid: 8e3d2ea84c850094ea26bd04c9666839, type: 3}
+  micRecorder: {fileID: 1930318584}
   SpeechText: {fileID: 4780858686992822473}
 --- !u!1001 &1147827012
 PrefabInstance:
@@ -2159,6 +2160,7 @@ MonoBehaviour:
   silenceThreshold: 0.02
   minSilenceLength: 0.5
   RunWhisper: {fileID: 969140849}
+  audioClipList: []
 --- !u!1 &486255704660920845
 GameObject:
   m_ObjectHideFlags: 0

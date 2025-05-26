@@ -1,5 +1,5 @@
 using UnityEngine;
-using Unity.Sentis;
+
 using TMPro;
 using System.Collections.Generic;
 using LudicWorlds;
@@ -21,18 +21,23 @@ public enum WhisperStateID
 
 public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 {
-    public ModelAsset decoderAsset;
-    public ModelAsset encoderAsset;
-    public ModelAsset spectroAsset;
+    public Unity.InferenceEngine.ModelAsset decoderAsset;
+    public Unity.InferenceEngine.ModelAsset encoderAsset;
+    public Unity.InferenceEngine.ModelAsset spectroAsset;
     public TextAsset vocabJson;
+    public MicRecorder micRecorder;
 
-    public Worker DecoderEngine { get; set; }
-    public Worker EncoderEngine { get; set; }
-    public Worker SpectroEngine { get; set; }
+    public Unity.InferenceEngine.Worker DecoderEngine { get; set; }
+    public Unity.InferenceEngine.Worker EncoderEngine { get; set; }
+    public Unity.InferenceEngine.Worker SpectroEngine { get; set; }
 
     // Link your audioclip here. Format must be 16Hz mono non-compressed.
     private AudioClip audioClip;
-    public AudioClip AudioClip { get { return audioClip; } }
+    public AudioClip AudioClip { get { return audioClip; } set { audioClip = value; } }
+
+    // TESTING QUEUE AUDIO
+    public List<AudioClip> AudioClipList { get; set; }
+    public Queue<AudioClip> audioClipQueue = new Queue<AudioClip>();
 
     public int NumSamples { get; set; }
     public float[] Data { get; set; }
@@ -41,8 +46,8 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
     // Used for special character decoding;
     public int[] WhiteSpaceCharacters { get; set; }
 
-    public Tensor<float> SpectroOutput { get; set; } //CPU Tensor
-    public Tensor<float> EncodedAudio { get; set; }  //CPU Tensor
+    public Unity.InferenceEngine.Tensor<float> SpectroOutput { get; set; } //CPU Tensor
+    public Unity.InferenceEngine.Tensor<float> EncodedAudio { get; set; }  //CPU Tensor
 
     public TMP_Text SpeechText;
 
@@ -98,9 +103,28 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 
         IsReady = false;
         audioClip = clip;
+        audioClipQueue.Enqueue(audioClip);
 
         SetState( WhisperStateID.StartTranscription );
         //SetState( WhisperStateID.TestingState );
+    }
+
+    public void TranscribeAudioQueue(List<AudioClip> clip)
+    {
+        Debug.Log("-> SentisWisper::Transcribe() ...");
+        //micRecorder.audioClipList.Clear();
+        //audioClipQueue.Clear();
+
+        IsReady = false;
+        AudioClipList = clip;
+
+        foreach (AudioClip clipItem in AudioClipList)
+        {
+            Debug.Log("Add " + clipItem.name + " To Queue");
+            audioClipQueue.Enqueue(clipItem);
+        }
+
+        SetState(WhisperStateID.StartTranscription);
     }
 
 
@@ -120,7 +144,7 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 
     bool IsWhiteSpace(char c)
     {
-        return !(('!' <= c && c <= '~') || ('¡' <= c && c <= '¬') || ('®' <= c && c <= 'ÿ'));
+        return !(('!' <= c && c <= '~') || ('ï¿½' <= c && c <= 'ï¿½') || ('ï¿½' <= c && c <= 'ï¿½'));
     }
 
     protected override void OnDestroy()

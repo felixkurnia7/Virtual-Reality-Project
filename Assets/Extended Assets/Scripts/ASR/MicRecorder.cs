@@ -29,6 +29,9 @@ public class MicRecorder : MonoBehaviour
     private string deviceName;  //holds the name of the detected Microphone device
     private bool isRecording;
 
+    // TESTING QUEUE AUDIO
+    public List<AudioClip> audioClipList;
+
     void Start()
     {
         Debug.Log("* Hold down the Left Trigger to Record.");
@@ -97,7 +100,7 @@ public class MicRecorder : MonoBehaviour
     private void OnActivateMicActionCanceled(InputAction.CallbackContext obj)
     {
         StopRecording();
-        TrimSilence();
+        //TrimSilence();
 
         if(audioClip.channels > 1)
         { //We have a stereo recording...
@@ -114,6 +117,7 @@ public class MicRecorder : MonoBehaviour
     private void OnSendRecordingAction(InputAction.CallbackContext obj)
     {
         TranscribeUsingWhisper();
+        //Debug.Log(audioClipQueue.Count);
     }
 
     private void StartRecording()
@@ -133,6 +137,7 @@ public class MicRecorder : MonoBehaviour
             Debug.Log("-> StopRecording() - " + PrintAudioClipDetail(audioClip));
             Microphone.End(deviceName);
             audioClip.name = "Recording";
+            audioClipList.Add(audioClip);
             isRecording = false;
         }
     }
@@ -246,6 +251,7 @@ public class MicRecorder : MonoBehaviour
         AudioClip monoClip = AudioClip.Create(audioClip.name + "_Mono", samples, 1, audioClip.frequency, false);
         monoClip.SetData(monoData, 0);
         audioClip = monoClip; // Replace the old clip with the trimmed clip
+        audioClipList.Add(monoClip);
         Debug.Log("-> ConvertToMono() - " + PrintAudioClipDetail(audioClip));
     }
 
@@ -259,7 +265,8 @@ public class MicRecorder : MonoBehaviour
     {
         if (RunWhisper.IsReady && !isRecording)
         {
-            RunWhisper.Transcribe(audioClip);
+            //RunWhisper.Transcribe(audioClip);
+            RunWhisper.TranscribeAudioQueue(audioClipList);
         }
     }
 

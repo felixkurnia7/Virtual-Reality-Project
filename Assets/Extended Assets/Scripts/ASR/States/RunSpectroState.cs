@@ -1,12 +1,12 @@
 using LudicWorlds;
-using Unity.Sentis;
+
 using UnityEngine;
 using System.Collections;
 
 
 public class RunSpectroState : SentisWhisperState
 {
-    private Tensor<float> spectroOutput;
+    private Unity.InferenceEngine.Tensor<float> spectroOutput;
 
     // Start is called before the first frame update
     public RunSpectroState(IStateMachine<WhisperStateID> stateMachine) : base(stateMachine, WhisperStateID.RunSpectro, WhisperStateID.RunEncoder)
@@ -28,9 +28,9 @@ public class RunSpectroState : SentisWhisperState
        
     private void RunSpectro()
     { //in one go...
-        using var input = new Tensor<float>(new TensorShape(1, whisper.NumSamples), whisper.Data);
+        using var input = new Unity.InferenceEngine.Tensor<float>(new Unity.InferenceEngine.TensorShape(1, whisper.NumSamples), whisper.Data);
         whisper.SpectroEngine.Schedule(input);
-        spectroOutput = whisper.SpectroEngine.PeekOutput() as Tensor<float>;
+        spectroOutput = whisper.SpectroEngine.PeekOutput() as Unity.InferenceEngine.Tensor<float>;
         whisper.SpectroOutput = spectroOutput.ReadbackAndClone(); //CPU copy of the output tensor
     }
 

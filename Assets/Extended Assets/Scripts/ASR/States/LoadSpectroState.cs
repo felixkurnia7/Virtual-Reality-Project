@@ -1,5 +1,5 @@
 using LudicWorlds;
-using Unity.Sentis;
+
 using UnityEngine;
 
 public class LoadSpectroState : SentisWhisperState
@@ -34,9 +34,9 @@ public class LoadSpectroState : SentisWhisperState
 
     private void LoadSpectro()
     {
-        Model spectro = ModelLoader.Load(whisper.spectroAsset);
+        Unity.InferenceEngine.Model spectro = Unity.InferenceEngine.ModelLoader.Load(whisper.spectroAsset);
         //whisper.SpectroEngine = WorkerFactory.CreateWorker(backend, spectro);
-        whisper.SpectroEngine = new Worker(spectro, backend);
+        whisper.SpectroEngine = new Unity.InferenceEngine.Worker(spectro, backend);
     }
 
 

@@ -19,7 +19,41 @@ public class StartTranscriptionState : SentisWhisperState
         DebugPanel.SetStatus("StartTranscription");
         whisper.SpeechText.color = Color.gray;
         whisper.SpeechText.text = "Transcribing ...";
-        LoadAudio();
+        LoadAudioQueue();
+        //LoadAudio();
+    }
+
+    private void LoadAudioQueue()
+    {
+        if (whisper.audioClipQueue.Count >= 1)
+        {
+            whisper.AudioClip = whisper.audioClipQueue.Dequeue();
+            Debug.Log("Transcribing audio: " + whisper.AudioClip.name);
+
+            if (whisper.AudioClip.frequency != 16000)
+            {
+                Debug.Log($"The audio clip should have frequency 16kHz. It has frequency {whisper.AudioClip.frequency / 1000f}kHz");
+                return;
+            }
+
+            whisper.NumSamples = whisper.AudioClip.samples;
+
+            if (whisper.NumSamples > maxSamples)
+            {
+                Debug.Log($"The AudioClip is too long. It must be less than 30 seconds. This clip is {whisper.NumSamples / whisper.AudioClip.frequency} seconds.");
+                return;
+            }
+
+            whisper.Data = new float[maxSamples];
+            whisper.NumSamples = maxSamples;
+
+            //We will get a warning here if data.length is larger than audio length but that is OK
+            whisper.AudioClip.GetData(whisper.Data, 0);
+        }
+        else
+        {
+            return;
+        }
     }
 
     private void LoadAudio()

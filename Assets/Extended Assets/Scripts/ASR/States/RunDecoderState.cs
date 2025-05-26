@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Unity.Sentis;
+using Unity.InferenceEngine;
 using UnityEngine;
 
 public class RunDecoderState : SentisWhisperState
@@ -54,16 +54,34 @@ public class RunDecoderState : SentisWhisperState
         switch (stage)
         {
             case 0:
-
                 if (currentToken < outputTokens.Length - 1)
                 {
                     ExecuteDecoder();
                 }
+                ClearAudio();
                 break;
             default:
                 stateMachine.SetState(nextStateId);
                 break;
         }
+    }
+
+    private void ClearAudio()
+    {
+        if (whisper.audioClipQueue.Count >= 1)
+        {
+            Debug.Log("There is audio left!");
+            Debug.Log(whisper.audioClipQueue.Count);
+            whisper.AudioClipList.Clear();
+            whisper.audioClipQueue.Clear();
+        }
+        else
+        {
+            Debug.Log(whisper.audioClipQueue.Count);
+            whisper.AudioClipList.Clear();
+            whisper.audioClipQueue.Clear();
+        }
+        
     }
 
     private void ExecuteDecoder()

@@ -1,5 +1,5 @@
 using LudicWorlds;
-using Unity.Sentis;
+
 using UnityEngine;
 
 public class LoadEncoderState : SentisWhisperState
@@ -33,9 +33,9 @@ public class LoadEncoderState : SentisWhisperState
 
     private void LoadEncoder()
     {
-        Model encoder = ModelLoader.Load( whisper.encoderAsset);
+        Unity.InferenceEngine.Model encoder = Unity.InferenceEngine.ModelLoader.Load( whisper.encoderAsset);
         //whisper.EncoderEngine = WorkerFactory.CreateWorker(backend, encoder); //V1.6
-        whisper.EncoderEngine = new Worker(encoder, backend); //V2.0
+        whisper.EncoderEngine = new Unity.InferenceEngine.Worker(encoder, backend); //V2.0
     }
 
     public override void Exit()

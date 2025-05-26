@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using System.IO;
-using Unity.Sentis;
+
 
 public class SentisWhisperState : GameObjectState<WhisperStateID>
 {
@@ -12,7 +12,7 @@ public class SentisWhisperState : GameObjectState<WhisperStateID>
     protected int stage = 0; // 0: Loading, 1: Processing
     protected WhisperStateID nextStateId;
 
-    protected const BackendType backend = BackendType.GPUCompute;
+    protected const Unity.InferenceEngine.BackendType backend = Unity.InferenceEngine.BackendType.GPUCompute;
 
     public SentisWhisperState(IStateMachine<WhisperStateID> stateMachine, WhisperStateID id, WhisperStateID nextStateId) : base(stateMachine, id)
     {
