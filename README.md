@@ -1,1 +1,25 @@
-# Virtual-Reality-Project
+# Virtual-Reality-Project (On-Going)
+It's a personal project and also for my thesis for my bachelor's degree. So, the game is on VR about communication training in a presentation scenario.
+There are 2 session, preparation session and training session. In preparation, users can explore the VR environment and try out the features contained in the application. In training session, users will be doing a presentation in front of virtual audiences (NPC). 
+
+There are 3 main features in this project:
+1. Speech Recognition
+In this project, I am using Automatic Speech Recognition model from Whisper and run in local using Unity Inference AI. The AI model that I am using is Bahasa Indonesia by Cahya/Whisper-medium-id. This feature will count the words per minute, volume, and filler words.
+
+3. Eye Contact
+For eye contact, the user must look at the virtual audience for a few seconds. When fulfilled, the eye contact value will increase.
+
+4. Hand Movement
+Hand movement value is based on device controller movement with maximum value 100.
+   
+To Implement the speech recognition model:
+1. Download all of the .onnx model from here.
+2. Import the .onnx model to the project.
+3. Drag the decoder_model.onnx to the decorder model field on RunWhisper.cs
+4. Drag the encoder_model.onnx to the encoder model field on RunWhisper.cs
+5. Drag the logMelSpectro.sentis to spectro model field on RunWhisper.cs
+6. Drag the vocab.json to vocab field on RunWhisper.cs
+7. Hold secondary button to start recording and release it to stop recording
+8. Press primary button to transcibe and the text will appear in a few seconds.
+
+Nb: Because this is an on-going project, so there will be a lot of bug or problem. I am still trying to finish this project.
