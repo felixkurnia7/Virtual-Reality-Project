@@ -58,30 +58,20 @@ public class RunDecoderState : SentisWhisperState
                 {
                     ExecuteDecoder();
                 }
-                ClearAudio();
+                break;
+            case 1:
+                Debug.Log("Check Next Audio Clip");
+                CheckNextAudio();
+                break;
+            case 2:
+                Debug.Log("This will process next Audio");
+                //stage = 3;
+                stateMachine.SetState(WhisperStateID.StartTranscription);
                 break;
             default:
                 stateMachine.SetState(nextStateId);
                 break;
         }
-    }
-
-    private void ClearAudio()
-    {
-        if (whisper.audioClipQueue.Count >= 1)
-        {
-            Debug.Log("There is audio left!");
-            Debug.Log(whisper.audioClipQueue.Count);
-            whisper.AudioClipList.Clear();
-            whisper.audioClipQueue.Clear();
-        }
-        else
-        {
-            Debug.Log(whisper.audioClipQueue.Count);
-            whisper.AudioClipList.Clear();
-            whisper.audioClipQueue.Clear();
-        }
-        
     }
 
     private void ExecuteDecoder()
@@ -105,17 +95,19 @@ public class RunDecoderState : SentisWhisperState
         if (ID == END_OF_TEXT)
         {
             Debug.Log("*WHISPER*: " + outputString);
-            stage = 1;
 
-            if (whisper.SpeechText != null)
+            if (whisper.textSO != null)
             {
-                whisper.SpeechText.color = new Color(1f, 0.6133823f, 0f);
-                whisper.SpeechText.text = outputString;
+                //whisper.SpeechText.color = new Color(1f, 0.6133823f, 0f);
+                whisper.textSO.text += " " + outputString;
+                whisper.CheckWMP?.Invoke(outputString);
+                whisper.CheckFillerWord?.Invoke(outputString);
             }
             else
             {
                 Debug.LogError("-> RunDecoderState::Update() - SpeechText is NULL! :(");
             }
+            stage = 1;
         }
         else if (ID >= whisper.Tokens.Length)
         {
@@ -127,6 +119,23 @@ public class RunDecoderState : SentisWhisperState
             outputString += GetUnicodeText(whisper.Tokens[ID]);
             Debug.Log("-> " + outputString);
         }
+    }
+
+    private void CheckNextAudio()
+    {
+        if (!whisper.audioClipQueue.Any())
+        {
+            Debug.Log("No audio clip on the list");
+            whisper.audioClipQueue.Clear();
+            whisper.AudioClipList.Clear();
+            stage = 3;
+        }
+        else
+        {
+            Debug.Log("There is an audio on the list");
+            stage = 2;
+        }
+
     }
 
      

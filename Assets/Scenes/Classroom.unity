@@ -2314,6 +2314,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
     - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: bb94bec277a3b824ca5f5bdae0f298ed, type: 3}
+    - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: bb94bec277a3b824ca5f5bdae0f298ed, type: 3}
@@ -2385,6 +2389,11 @@ PrefabInstance:
 
         Gerakan tangan yang terlalu tinggi atau rendah
         juga tidak akan menambah nilai'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990876008113162720, guid: d3fd8b2633030f544aa5cc4d825e2adf,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3990876008389115636, guid: d3fd8b2633030f544aa5cc4d825e2adf,
         type: 3}
@@ -3223,6 +3232,114 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275323857}
   m_CullTransparentMesh: 1
+--- !u!1001 &277350786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 303859695}
+    m_Modifications:
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093314244937882946, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_Name
+      value: RunWhisper
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093314244937882946, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018681837948476979, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: textSO
+      value: 
+      objectReference: {fileID: 11400000, guid: f0f451d7495dddc4ab36b7108432f163,
+        type: 2}
+    - target: {fileID: 9018681837948476979, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: micRecorder
+      value: 
+      objectReference: {fileID: 533274810}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ef1fb592c36e7849b73cbfad80c5555, type: 3}
+--- !u!114 &277350787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9018681837948476979, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+    type: 3}
+  m_PrefabInstance: {fileID: 277350786}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277350789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01ad7e6f5d09d34fa755ed3f9e004e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &277350788 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1014288265597259283, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+    type: 3}
+  m_PrefabInstance: {fileID: 277350786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &277350789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3093314244937882946, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+    type: 3}
+  m_PrefabInstance: {fileID: 277350786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &279537340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3892,6 +4009,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 377293781503141251}
+  - {fileID: 2911389461478957892}
+  - {fileID: 277350788}
   - {fileID: 1963380524}
   - {fileID: 257938030}
   - {fileID: 403504778}
@@ -4543,6 +4662,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
     - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e38f2703958d854ba7ec0ef3019811b, type: 3}
+    - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 7e38f2703958d854ba7ec0ef3019811b, type: 3}
@@ -4610,6 +4733,11 @@ PrefabInstance:
         History akan menampilkan seluruh
         data pelatihan yang Anda telah simpan dari pelatihan yang Anda lakukan sebelumnya.
         Anda dapat menghapus data tersebut jika tidak diperlukan.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990876008113162720, guid: d3fd8b2633030f544aa5cc4d825e2adf,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3990876008389115636, guid: d3fd8b2633030f544aa5cc4d825e2adf,
         type: 3}
@@ -6749,59 +6877,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530978160}
   m_Mesh: {fileID: 1378968506556707602, guid: 517146af7a2f33d44a2435a12efff1f4, type: 3}
---- !u!1 &533274809
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 533274811}
-  - component: {fileID: 533274810}
-  m_Layer: 0
-  m_Name: MicRecorder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &533274810
+--- !u!114 &533274810 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2792255704561224892, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+    type: 3}
+  m_PrefabInstance: {fileID: 2911389461478957891}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533274809}
+  m_GameObject: {fileID: 2911389461478957893}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c0e2f11af93c984a93a56e36c2120f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActivateMicAction: {fileID: -6182768597579659508, guid: c348712bda248c246b8c49b3db54643f,
-    type: 3}
-  leftSelectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
-    type: 3}
-  SendRecordingAction: {fileID: -6182768597579659508, guid: c348712bda248c246b8c49b3db54643f,
-    type: 3}
-  silenceThreshold: 0.02
-  minSilenceLength: 0.5
-  RunWhisper: {fileID: 2078331612}
---- !u!4 &533274811
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533274809}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &537549329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10037,6 +10124,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1290575328246745731, guid: a9edd4165eb838946bbb52df0e6abb6d,
         type: 3}
+      propertyPath: micRecorder
+      value: 
+      objectReference: {fileID: 533274810}
+    - target: {fileID: 1290575328246745731, guid: a9edd4165eb838946bbb52df0e6abb6d,
+        type: 3}
       propertyPath: speechRecognition
       value: 
       objectReference: {fileID: 1963380523}
@@ -10769,6 +10861,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
     - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d5256f4cc11979c4a84a76dd3724af23, type: 3}
+    - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d5256f4cc11979c4a84a76dd3724af23, type: 3}
@@ -10836,6 +10932,11 @@ PrefabInstance:
         Sebelum memulai sesi pelatihan,
         Anda disarankan untuk mencoba fitur yang tersedia terlebih dahulu untuk memudahkan
         dalam sesi pelatihan.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990876008113162720, guid: d3fd8b2633030f544aa5cc4d825e2adf,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3990876008389115636, guid: d3fd8b2633030f544aa5cc4d825e2adf,
         type: 3}
@@ -15016,6 +15117,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
     - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 328ced61821afb04784ff10fd8acf920, type: 3}
+    - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 328ced61821afb04784ff10fd8acf920, type: 3}
@@ -15083,6 +15188,11 @@ PrefabInstance:
         Fitur speech recognition dalam
         aplikasi ini menggunakan model yang dapat mendeteksi suara bahasa indonesia
         dengan akurasi 80%'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990876008113162720, guid: d3fd8b2633030f544aa5cc4d825e2adf,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3990876008389115636, guid: d3fd8b2633030f544aa5cc4d825e2adf,
         type: 3}
@@ -16841,6 +16951,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
     - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: b95a306db31f94b4a8508c6fbddc40f0, type: 3}
+    - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b95a306db31f94b4a8508c6fbddc40f0, type: 3}
@@ -16913,6 +17027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990876008113162720, guid: d3fd8b2633030f544aa5cc4d825e2adf,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3990876008389115636, guid: d3fd8b2633030f544aa5cc4d825e2adf,
         type: 3}
@@ -17714,6 +17833,11 @@ PrefabInstance:
       objectReference: {fileID: 257938035}
     - target: {fileID: 5062960488185547547, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
+      propertyPath: micRecorder
+      value: 
+      objectReference: {fileID: 2911389461478957893}
+    - target: {fileID: 5062960488185547547, guid: 580ce54377b960a458222e0699519eeb,
+        type: 3}
       propertyPath: CheckWPMSystem
       value: 
       objectReference: {fileID: 1818120901}
@@ -17746,7 +17870,7 @@ PrefabInstance:
         type: 3}
       propertyPath: speechRecognitionSystem
       value: 
-      objectReference: {fileID: 1963380525}
+      objectReference: {fileID: 277350789}
     - target: {fileID: 5062960488186929582, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
       propertyPath: m_RootOrder
@@ -18177,8 +18301,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
@@ -18189,12 +18318,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
-      objectReference: {fileID: 1963380523}
+      objectReference: {fileID: 1677081710}
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_Target
       value: 
-      objectReference: {fileID: 1723244777}
+      objectReference: {fileID: 1677081709}
+    - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[8].m_Target
+      value: 
+      objectReference: {fileID: 1677081709}
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -18203,7 +18337,7 @@ PrefabInstance:
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
-      value: ResetText
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
@@ -18213,7 +18347,17 @@ PrefabInstance:
     - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
-      value: SpeechRecognition, Assembly-CSharp
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062960488575860521, guid: 580ce54377b960a458222e0699519eeb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[8].m_Arguments.m_BoolArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5062960488594787986, guid: 580ce54377b960a458222e0699519eeb,
         type: 3}
@@ -19409,6 +19553,16 @@ PrefabInstance:
         Seluruh fungsi masing-masing
         tampilan pada menu dapat Anda baca pada menu help.'
       objectReference: {fileID: 0}
+    - target: {fileID: 7740314828872758397, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c5bb2224cb3fa34babb21138ffb98b6, type: 3}
     - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
         type: 3}
       propertyPath: m_audioClip
@@ -19900,6 +20054,16 @@ PrefabInstance:
         lain terdapat pada bagian SETTINGS. Panel settings juga dapat mengatur suara
         music dan sfx dan juga melihat control gerak yang dapat dilakukan.'
       objectReference: {fileID: 0}
+    - target: {fileID: 7740314828872758397, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: f274871c3eaaf1543950376642b385e8, type: 3}
     - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
         type: 3}
       propertyPath: m_audioClip
@@ -20296,6 +20460,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6327977034416447827, guid: 8e9fe0295463a0f42a72e3dafe51f45d,
+        type: 3}
+      propertyPath: runWhisper
+      value: 
+      objectReference: {fileID: 277350787}
     - target: {fileID: 6327977034416447827, guid: 8e9fe0295463a0f42a72e3dafe51f45d,
         type: 3}
       propertyPath: speechRecognition
@@ -24954,6 +25123,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0059621013, y: 0.0077398513, z: 0.010106392}
   m_Center: {x: -0.0055283858, y: -0.0005693752, z: -0.00247739}
+--- !u!1 &1677081709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5062960487578094117, guid: 580ce54377b960a458222e0699519eeb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1267420463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1677081710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5062960489053652980, guid: 580ce54377b960a458222e0699519eeb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1267420463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1679309455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26535,6 +26716,11 @@ PrefabInstance:
       objectReference: {fileID: 282397490}
     - target: {fileID: 8987983883401293528, guid: 4bd055eb794f24c4491318d9bd0d3358,
         type: 3}
+      propertyPath: runWhisper
+      value: 
+      objectReference: {fileID: 277350787}
+    - target: {fileID: 8987983883401293528, guid: 4bd055eb794f24c4491318d9bd0d3358,
+        type: 3}
       propertyPath: speechRecognition
       value: 
       objectReference: {fileID: 1963380523}
@@ -26668,6 +26854,16 @@ PrefabInstance:
         Arahkan
         titik tengah kamera ke objek NPC agar terdeteksi sebagai kontak mata'
       objectReference: {fileID: 0}
+    - target: {fileID: 7740314828872758397, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 9990b662621d60c44bd3c2052e1fc137, type: 3}
     - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
         type: 3}
       propertyPath: m_audioClip
@@ -26759,6 +26955,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
     - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 2bf6954933b87034582d029624ea5402, type: 3}
+    - target: {fileID: 1825745613, guid: d3fd8b2633030f544aa5cc4d825e2adf, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2bf6954933b87034582d029624ea5402, type: 3}
@@ -26827,6 +27027,11 @@ PrefabInstance:
         VR dapat berinteraksi. Salah satu objek yang dapat dilakukan interaksi yaitu
         notebook. Dengan menekan trigger pada controller akan memutar suara yang
         tertulis pada panduan.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990876008113162720, guid: d3fd8b2633030f544aa5cc4d825e2adf,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3990876008389115636, guid: d3fd8b2633030f544aa5cc4d825e2adf,
         type: 3}
@@ -30591,58 +30796,6 @@ Transform:
   - {fileID: 831963}
   - {fileID: 1075353294}
   m_Father: {fileID: 1864833614}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2078331611
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2078331613}
-  - component: {fileID: 2078331612}
-  m_Layer: 0
-  m_Name: Whisper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2078331612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078331611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d01ad7e6f5d09d34fa755ed3f9e004e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  decoderAsset: {fileID: 5022602860645237092, guid: 1fe8e2aec2d39fc488a95763e7167f8c,
-    type: 3}
-  encoderAsset: {fileID: 5022602860645237092, guid: 87b9e1976a507da4ebe56d69a697ae4a,
-    type: 3}
-  spectroAsset: {fileID: 5022602860645237092, guid: 8f1d2c0d8d526f74abd07429b1211041,
-    type: 3}
-  vocabJson: {fileID: 4900000, guid: 8e3d2ea84c850094ea26bd04c9666839, type: 3}
-  SpeechText: {fileID: 1267420468}
---- !u!4 &2078331613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078331611}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9037222, y: 1.6483713, z: -1.2400407}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2087445887
 PrefabInstance:
@@ -34867,6 +35020,96 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &2911389461478957891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 303859695}
+    m_Modifications:
+    - target: {fileID: 400140670076083541, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_Name
+      value: MicRecorder
+      objectReference: {fileID: 0}
+    - target: {fileID: 400140670076083541, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2792255704561224892, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: RunWhisper
+      value: 
+      objectReference: {fileID: 277350787}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af7f3537d4aed53498f8ce9c77ca6b99, type: 3}
+--- !u!4 &2911389461478957892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6218782345769132777, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+    type: 3}
+  m_PrefabInstance: {fileID: 2911389461478957891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2911389461478957893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 400140670076083541, guid: af7f3537d4aed53498f8ce9c77ca6b99,
+    type: 3}
+  m_PrefabInstance: {fileID: 2911389461478957891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2929841582867444424
 GameObject:
   m_ObjectHideFlags: 0
@@ -40388,6 +40631,16 @@ PrefabInstance:
         dengan menggunakan marker dan menekan tombol <i>trigger</i> pada controller,
         kemudian arahkan marker ke papan tulis.'
       objectReference: {fileID: 0}
+    - target: {fileID: 7740314828872758397, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e9ab78708d661094bbe44404266b7596, type: 3}
     - target: {fileID: 7740314829928730830, guid: 6b5c3b79939e2554bae99da255dd2ea6,
         type: 3}
       propertyPath: m_audioClip
@@ -41854,5 +42107,3 @@ SceneRoots:
   - {fileID: 1137489088}
   - {fileID: 1625332607}
   - {fileID: 4199479159462047982}
-  - {fileID: 533274811}
-  - {fileID: 2078331613}

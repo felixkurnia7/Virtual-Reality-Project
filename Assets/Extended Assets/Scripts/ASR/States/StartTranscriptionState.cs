@@ -17,8 +17,8 @@ public class StartTranscriptionState : SentisWhisperState
     {
         Debug.Log("-> StartTranscriptionState::Enter()");
         DebugPanel.SetStatus("StartTranscription");
-        whisper.SpeechText.color = Color.gray;
-        whisper.SpeechText.text = "Transcribing ...";
+        //whisper.SpeechText.color = Color.gray;
+        //whisper.SpeechText.text = "Transcribing ...";
         LoadAudioQueue();
         //LoadAudio();
     }
@@ -27,7 +27,8 @@ public class StartTranscriptionState : SentisWhisperState
     {
         if (whisper.audioClipQueue.Count >= 1)
         {
-            whisper.AudioClip = whisper.audioClipQueue.Dequeue();
+            var clip = whisper.audioClipQueue.Dequeue();
+            whisper.AudioClip = clip;
             Debug.Log("Transcribing audio: " + whisper.AudioClip.name);
 
             if (whisper.AudioClip.frequency != 16000)

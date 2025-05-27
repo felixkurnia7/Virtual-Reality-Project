@@ -9,7 +9,7 @@ using System.Linq;
 public class CheckWordPerMinute : MonoBehaviour
 {
     [SerializeField]
-    private SpeechRecognition speechRecognition;
+    private RunWhisper runWhisper;
     [SerializeField]
     private WordPerMinuteUI wpmUI;
     [SerializeField]
@@ -21,7 +21,7 @@ public class CheckWordPerMinute : MonoBehaviour
 
     private void Awake()
     {
-        speechRecognition.CheckWMP += CountWPM;
+        runWhisper.CheckWMP += CountWPM;
     }
 
     private void Start()
@@ -31,7 +31,7 @@ public class CheckWordPerMinute : MonoBehaviour
 
     private void OnDestroy()
     {
-        speechRecognition.CheckWMP -= CountWPM;
+        runWhisper.CheckWMP -= CountWPM;
     }
 
     private void ResetWPM()

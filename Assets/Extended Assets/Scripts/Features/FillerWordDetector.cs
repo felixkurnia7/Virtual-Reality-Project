@@ -6,7 +6,7 @@ using System;
 public class FillerWordDetector : MonoBehaviour
 {
     [SerializeField]
-    private SpeechRecognition speechRecognition;
+    private RunWhisper runWhisper;
     [SerializeField]
     private List<string> fillerWords = new();
     [SerializeField]
@@ -14,12 +14,12 @@ public class FillerWordDetector : MonoBehaviour
 
     private void Awake()
     {
-        speechRecognition.CheckFillerWord += CheckFillerWord;
+        runWhisper.CheckFillerWord += CheckFillerWord;
     }
 
     private void OnDestroy()
     {
-        speechRecognition.CheckFillerWord -= CheckFillerWord;
+        runWhisper.CheckFillerWord -= CheckFillerWord;
     }
 
     public void CheckFillerWord(string text)

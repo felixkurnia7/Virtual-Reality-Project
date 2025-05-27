@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
 using LudicWorlds;
+using System;
 
 // https://huggingface.co/unity/sentis-whisper-tiny/blob/main/RunWhisper.cs
 
@@ -21,6 +22,9 @@ public enum WhisperStateID
 
 public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 {
+    public Action<string> CheckWMP;
+    public Action<string> CheckFillerWord;
+
     public Unity.InferenceEngine.ModelAsset decoderAsset;
     public Unity.InferenceEngine.ModelAsset encoderAsset;
     public Unity.InferenceEngine.ModelAsset spectroAsset;
@@ -49,7 +53,8 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
     public Unity.InferenceEngine.Tensor<float> SpectroOutput { get; set; } //CPU Tensor
     public Unity.InferenceEngine.Tensor<float> EncodedAudio { get; set; }  //CPU Tensor
 
-    public TMP_Text SpeechText;
+    //public TMP_Text SpeechText;
+    public StringValue textSO;
 
     public bool IsReady { get; set; }
 

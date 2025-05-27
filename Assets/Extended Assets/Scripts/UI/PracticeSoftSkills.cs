@@ -8,6 +8,8 @@ public class PracticeSoftSkills : MonoBehaviour
     [SerializeField]
     private GameObject speechRecognitionUI;
     [SerializeField]
+    private GameObject micRecorder;
+    [SerializeField]
     private GameObject speechRecognitionSystem;
     [SerializeField]
     private GameObject checkVolumeSystem;
@@ -84,6 +86,7 @@ public class PracticeSoftSkills : MonoBehaviour
         {
             case 1:
                 speechRecognitionUI.SetActive(true);
+                micRecorder.SetActive(true);
                 speechRecognitionSystem.SetActive(true);
                 checkVolumeSystem.SetActive(true);
                 CheckWPMSystem.SetActive(true);
@@ -187,6 +190,7 @@ public class PracticeSoftSkills : MonoBehaviour
                 break;
             default:
                 speechRecognitionUI.SetActive(false);
+                micRecorder.SetActive(true);
                 speechRecognitionSystem.SetActive(false);
                 checkVolumeSystem.SetActive(false);
                 CheckWPMSystem.SetActive(false);

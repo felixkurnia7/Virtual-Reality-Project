@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using LudicWorlds;
 using UnityEngine.InputSystem;
+using System;
 
 
 public class MicRecorder : MonoBehaviour
@@ -12,7 +13,7 @@ public class MicRecorder : MonoBehaviour
     //[SerializeField] private InputActionReference leftActivateAction;
     //[SerializeField] private InputActionReference leftSelectAction;
     //[SerializeField] private InputActionReference rightActivateAction;
-
+    public Action<float[]> CheckVolume;
     [SerializeField] private InputActionReference ActivateMicAction;
     [SerializeField] private InputActionReference leftSelectAction;
     [SerializeField] private InputActionReference SendRecordingAction;
@@ -28,6 +29,7 @@ public class MicRecorder : MonoBehaviour
     private AudioSource audioSource; //audio source attached to camera
     private string deviceName;  //holds the name of the detected Microphone device
     private bool isRecording;
+    private float[] samples;
 
     // TESTING QUEUE AUDIO
     public List<AudioClip> audioClipList;
@@ -100,6 +102,7 @@ public class MicRecorder : MonoBehaviour
     private void OnActivateMicActionCanceled(InputAction.CallbackContext obj)
     {
         StopRecording();
+        CountVolume();
         //TrimSilence();
 
         if(audioClip.channels > 1)
@@ -268,6 +271,13 @@ public class MicRecorder : MonoBehaviour
             //RunWhisper.Transcribe(audioClip);
             RunWhisper.TranscribeAudioQueue(audioClipList);
         }
+    }
+
+    private void CountVolume()
+    {
+        Debug.Log("Count Volume");
+        samples = new float[audioClip.samples * audioClip.channels];
+        CheckVolume?.Invoke(samples);
     }
 
     void OnDestroy()

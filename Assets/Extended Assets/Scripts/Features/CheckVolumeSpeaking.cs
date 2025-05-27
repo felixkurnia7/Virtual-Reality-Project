@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class CheckVolumeSpeaking : MonoBehaviour
 {
-    [SerializeField] private SpeechRecognition speechRecognition;
+    [SerializeField] private MicRecorder micRecorder;
     [SerializeField] private Button startButton;
     [SerializeField] private Button stopButton;
     [SerializeField] private FloatValue volume;
@@ -21,14 +21,14 @@ public class CheckVolumeSpeaking : MonoBehaviour
         //speechRecognition.StartCheckVolume += StartVolumeRecording;
         //speechRecognition.StopCheckVolume += StopVolumeRecording;
         ResetVolumeSpeaking();
-        speechRecognition.CheckVolume += CheckVolume;
+        micRecorder.CheckVolume += CheckVolume;
     }
 
     private void OnDestroy()
     {
         //speechRecognition.StartCheckVolume -= StartVolumeRecording;
         //speechRecognition.StopCheckVolume -= StopVolumeRecording;
-        speechRecognition.CheckVolume -= CheckVolume;
+        micRecorder.CheckVolume -= CheckVolume;
     }
 
     private void ResetVolumeSpeaking()
