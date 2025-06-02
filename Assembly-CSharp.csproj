@@ -1579,6 +1579,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{069543DF-3173-AEDE-0D17-A8149DD118AF}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
     <ProjectReference Include="SimpleFileBrowser.Runtime.csproj">
       <Project>{94A90075-3503-3CFB-60D2-7C1BC154877D}</Project>
       <Name>SimpleFileBrowser.Runtime</Name>

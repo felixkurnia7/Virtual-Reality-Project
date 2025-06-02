@@ -44,6 +44,8 @@ public class Training1 : MonoBehaviour
 
     [Header("Systems")]
     [SerializeField]
+    private GameObject micRecorder;
+    [SerializeField]
     private GameObject speechRecognition;
     [SerializeField]
     private GameObject eyeContactSystem;
@@ -134,6 +136,7 @@ public class Training1 : MonoBehaviour
         eyeContactUI.ResetEyeContact();
         //whiteboardUI.SetActive(false);
 
+        micRecorder.SetActive(true);
         speechRecognition.SetActive(true);
         eyeContactSystem.SetActive(true);
         checkVolumeSystem.SetActive(true);
@@ -169,7 +172,8 @@ public class Training1 : MonoBehaviour
     private void StopTraining()
     {
         timerCanvas.SetActive(false);
-
+        
+        micRecorder.SetActive(false);
         speechRecognition.SetActive(false);
         eyeContactSystem.SetActive(false);
         checkVolumeSystem.SetActive(false);
@@ -195,6 +199,7 @@ public class Training1 : MonoBehaviour
     {
         timerCanvas.SetActive(false);
 
+        micRecorder.SetActive(false);
         speechRecognition.SetActive(false);
         eyeContactSystem.SetActive(false);
         checkVolumeSystem.SetActive(false);

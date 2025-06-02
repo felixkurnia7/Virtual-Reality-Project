@@ -3,6 +3,9 @@ using UnityEngine;
 using LudicWorlds;
 using UnityEngine.InputSystem;
 using System;
+using Unity.InferenceEngine;
+using UnityEngine.LightTransport;
+using UnityEngine.UIElements;
 
 
 public class MicRecorder : MonoBehaviour
@@ -29,7 +32,6 @@ public class MicRecorder : MonoBehaviour
     private AudioSource audioSource; //audio source attached to camera
     private string deviceName;  //holds the name of the detected Microphone device
     private bool isRecording;
-    private float[] samples;
 
     // TESTING QUEUE AUDIO
     public List<AudioClip> audioClipList;
@@ -275,9 +277,15 @@ public class MicRecorder : MonoBehaviour
 
     private void CountVolume()
     {
-        Debug.Log("Count Volume");
-        samples = new float[audioClip.samples * audioClip.channels];
-        CheckVolume?.Invoke(samples);
+        var position = Microphone.GetPosition(null);
+        int channels = audioClip.channels;
+        int samples = audioClip.samples;
+        int offset = (position - 512) % audioClip.samples;
+
+        Debug.Log("Count Volume"); 
+        float[] audioData = new float[samples * channels];
+        audioClip.GetData(audioData, 0);
+        CheckVolume?.Invoke(audioData);
     }
 
     void OnDestroy()

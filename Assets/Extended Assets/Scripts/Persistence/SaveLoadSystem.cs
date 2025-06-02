@@ -196,7 +196,7 @@ public class SaveLoadSystem : MonoBehaviour
 
             if (texts[6] != null)
             {
-                texts[6].text = data.volume.value.ToString("F2");
+                texts[6].text = data.volume.mean.ToString("F2");
                 //texts[7].text = data.timer.value.ToString();
             }
 
