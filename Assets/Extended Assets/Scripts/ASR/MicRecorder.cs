@@ -27,6 +27,7 @@ public class MicRecorder : MonoBehaviour
     [SerializeField, Range(0.0f, 1.0f)] private float minSilenceLength = 0.5f; // Minimum length of silence to trim, in seconds
     [Space]
     [SerializeField] private RunWhisper RunWhisper; // This is the reference to the RunWhisper script
+    [SerializeField] private GameObject mic;
 
     private AudioClip audioClip; //clip to which the microphone output is recorded
     private AudioSource audioSource; //audio source attached to camera
@@ -99,11 +100,13 @@ public class MicRecorder : MonoBehaviour
     {
         Debug.Log("-> OnActivateMicAction()");
         StartRecording();
+        mic.SetActive(true);
     }
 
     private void OnActivateMicActionCanceled(InputAction.CallbackContext obj)
     {
         StopRecording();
+        mic.SetActive(false);
         CountVolume();
         //TrimSilence();
 
