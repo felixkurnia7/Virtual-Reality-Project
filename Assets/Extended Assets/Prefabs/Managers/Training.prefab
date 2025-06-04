@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3128453716595690933}
-  - component: {fileID: 3128453716595690930}
+  - component: {fileID: 3092617569337128653}
   m_Layer: 0
   m_Name: Training
   m_TagString: Untagged
@@ -24,15 +24,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3128453716595690931}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3128453716595690930
+--- !u!114 &3092617569337128653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3128453716595690931}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cfc8b0131c7be74e867b523f68d8f65, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dd5317d78e6a87439e7c5d0d6e03b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 11400000, guid: f0f451d7495dddc4ab36b7108432f163, type: 2}
@@ -59,7 +59,8 @@ MonoBehaviour:
   statistic: {fileID: 0}
   resultUI: {fileID: 0}
   preparationUI: {fileID: 0}
-  whiteboardUI: {fileID: 0}
+  eyeContactUI: {fileID: 0}
+  micRecorder: {fileID: 0}
   speechRecognition: {fileID: 0}
   eyeContactSystem: {fileID: 0}
   checkVolumeSystem: {fileID: 0}
@@ -67,11 +68,6 @@ MonoBehaviour:
   fillerWordDetector: {fileID: 0}
   handMovementSystem: {fileID: 0}
   timer: {fileID: 0}
-  chair1: {fileID: 0}
-  chair2: {fileID: 0}
-  chair3: {fileID: 0}
-  chair4: {fileID: 0}
-  chair5: {fileID: 0}
   Char_NPC1: {fileID: 0}
   Char_NPC2: {fileID: 0}
   Char_NPC3: {fileID: 0}
