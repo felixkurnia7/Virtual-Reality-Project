@@ -98,22 +98,28 @@ public class MicRecorder : MonoBehaviour
 
     private void OnActivateMicAction(InputAction.CallbackContext obj)
     {
-        Debug.Log("-> OnActivateMicAction()");
-        StartRecording();
-        mic.SetActive(true);
+        if (gameObject.activeInHierarchy)
+        {
+            Debug.Log("-> OnActivateMicAction()");
+            StartRecording();
+            mic.SetActive(true);
+        }
     }
 
     private void OnActivateMicActionCanceled(InputAction.CallbackContext obj)
     {
-        StopRecording();
-        mic.SetActive(false);
-        CountVolume();
-        //TrimSilence();
+        if (gameObject.activeInHierarchy)
+        {
+            StopRecording();
+            mic.SetActive(false);
+            CountVolume();
+            //TrimSilence();
 
-        if(audioClip.channels > 1)
-        { //We have a stereo recording...
-          //We want to feed a mono audioClip to the 'Whisper' model.
-            ConvertToMono();
+            if (audioClip.channels > 1)
+            { //We have a stereo recording...
+              //We want to feed a mono audioClip to the 'Whisper' model.
+                ConvertToMono();
+            }
         }
     }
         
@@ -124,8 +130,11 @@ public class MicRecorder : MonoBehaviour
 
     private void OnSendRecordingAction(InputAction.CallbackContext obj)
     {
-        TranscribeUsingWhisper();
-        //Debug.Log(audioClipQueue.Count);
+        if (gameObject.activeInHierarchy)
+        {
+            TranscribeUsingWhisper();
+            //Debug.Log(audioClipQueue.Count);
+        }
     }
 
     private void StartRecording()
@@ -269,7 +278,7 @@ public class MicRecorder : MonoBehaviour
         return details;
     }
 
-    private void TranscribeUsingWhisper()
+    public void TranscribeUsingWhisper()
     {
         if (RunWhisper.IsReady && !isRecording)
         {
@@ -297,5 +306,10 @@ public class MicRecorder : MonoBehaviour
         ActivateMicAction.action.canceled -= OnActivateMicActionCanceled;
         leftSelectAction.action.performed -= OnLeftSelectAction;
         SendRecordingAction.action.performed -= OnSendRecordingAction;
+    }
+
+    public void ResetRecording()
+    {
+        audioClipList.Clear();
     }
 }    

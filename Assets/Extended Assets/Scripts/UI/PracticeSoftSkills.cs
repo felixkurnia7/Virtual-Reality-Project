@@ -26,8 +26,6 @@ public class PracticeSoftSkills : MonoBehaviour
     [SerializeField]
     private GameObject timer;
     [SerializeField]
-    private GameObject secondaryButton;
-    [SerializeField]
     private GameObject resetSpeechRecognition;
     [SerializeField]
     private GameObject infoButtonSpeechRecognition;
@@ -116,8 +114,6 @@ public class PracticeSoftSkills : MonoBehaviour
                 ////infoButtonHandMovement.SetActive(false);
 
                 gameObject.SetActive(false);
-
-                secondaryButton.SetActive(true);
                 break;
             case 2:
                 //speechRecognitionUI.SetActive(false);
@@ -151,7 +147,6 @@ public class PracticeSoftSkills : MonoBehaviour
 
                 gameObject.SetActive(false);
 
-                //secondaryButton.SetActive(false);
                 break;
             case 3:
                 //speechRecognitionUI.SetActive(false);
@@ -190,7 +185,7 @@ public class PracticeSoftSkills : MonoBehaviour
                 break;
             default:
                 speechRecognitionUI.SetActive(false);
-                micRecorder.SetActive(true);
+                micRecorder.SetActive(false);
                 speechRecognitionSystem.SetActive(false);
                 checkVolumeSystem.SetActive(false);
                 CheckWPMSystem.SetActive(false);
@@ -224,7 +219,6 @@ public class PracticeSoftSkills : MonoBehaviour
 
                 gameObject.SetActive(false);
 
-                secondaryButton.SetActive(false);
                 break;
         }
     }
