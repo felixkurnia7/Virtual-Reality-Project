@@ -174,7 +174,7 @@ public class Training1 : MonoBehaviour
         timerCanvas.SetActive(false);
         
         micRecorder.SetActive(false);
-        speechRecognition.SetActive(false);
+        //speechRecognition.SetActive(false);
         eyeContactSystem.SetActive(false);
         checkVolumeSystem.SetActive(false);
         handMovementSystem.SetActive(false);

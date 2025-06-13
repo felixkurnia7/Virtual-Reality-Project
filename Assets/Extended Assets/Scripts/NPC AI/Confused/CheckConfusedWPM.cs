@@ -5,18 +5,18 @@ using BehaviorTree;
 
 public class CheckConfusedWPM : Node
 {
-    private readonly FloatValue _wpm;
+    private readonly MicRecorder _micRecorder;
     private readonly float wpmThreshold;
 
-    public CheckConfusedWPM(FloatValue wpm, float wpmConfused)
+    public CheckConfusedWPM(MicRecorder micRecorder, float wpmConfused)
     {
-        _wpm = wpm;
+        _micRecorder = micRecorder;
         wpmThreshold = wpmConfused;
     }
 
     public override NodeState Evaluate()
     {
-        if (_wpm.value < wpmThreshold)
+        if (_micRecorder.audioClipList.Count < wpmThreshold)
         {
             state = NodeState.SUCCESS;
             return state;

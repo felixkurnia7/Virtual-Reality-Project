@@ -1,35 +1,37 @@
 using System.Collections.Generic;
 using BehaviorTree;
+using UnityEngine;
 
-public class NPC_AI : Tree
+public class NPC_AI : BehaviorTree.Tree
 {
     public NPC npc;
     public StringValue text;
     public FloatValue timer;
     public FloatValue volume;
     public FloatValue wpm;
+    public MicRecorder micRecorder;
 
     public bool notIdle = false;
     public bool notListening = false;
     public bool isInterested = false;
     public bool isConfused = false;
     public bool isBored = false;
-
-    public string _header = "--- IDLE THRESHOLD ---";
+    [Space]
+    [Header("--- IDLE THRESHOLD ---")]
     public float timeIdle;
 
-    public string __header = "--- LISTENING THRESHOLD ---";
+    [Header("--- LISTENING THRESHOLD ---")]
     public float timeListening;
 
-    public string ___header = "--- INTERESTED THRESHOLD ---";
+    [Header("--- INTERESTED THRESHOLD ---")]
     public float wpmInterested;
     public float eyeContactInterested;
 
-    public string ____header = "--- CONFUSED THRESHOLD ---";
+    [Header("--- CONFUSED THRESHOLD ---")]
     public float wpmConfused;
     public float eyeContactConfused;
 
-    public string _____header = "--- BORED THRESHOLD ---";
+    [Header("--- BORED THRESHOLD ---")]
     public float timeBored;
 
     public void SetNPCToIdle()
@@ -82,7 +84,7 @@ public class NPC_AI : Tree
                 {
                     new Sequence(new List<Node>
                     {
-                        new CheckInterestedWPM(wpm, wpmInterested),
+                        new CheckInterestedWPM(micRecorder, wpmInterested),
 
                         new CheckInterestedEyeContact(npc, eyeContactInterested),
 
@@ -91,7 +93,7 @@ public class NPC_AI : Tree
 
                     new Sequence(new List<Node>
                     {
-                        new CheckConfusedWPM(wpm, wpmConfused),
+                        new CheckConfusedWPM(micRecorder, wpmConfused),
 
                         new CheckConfusedEyeContact(npc, eyeContactConfused),
 
