@@ -22,7 +22,7 @@ public enum WhisperStateID
 
 public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 {
-    public Action<string> CheckWMP;
+    public Action CheckWMP;
     public Action<string> CheckFillerWord;
 
     public Unity.InferenceEngine.ModelAsset decoderAsset;
@@ -75,6 +75,11 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 
     protected override void InitStates()
     {
+        StartEngine();
+    }
+
+    public void StartEngine()
+    {
         base.InitStates();
         AddState(new LoadDecoderState(this));
         AddState(new LoadEncoderState(this));
@@ -88,7 +93,6 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 
         SetState(WhisperStateID.LoadDecoder);
     }
-
 
     private void SetTokens()
     {

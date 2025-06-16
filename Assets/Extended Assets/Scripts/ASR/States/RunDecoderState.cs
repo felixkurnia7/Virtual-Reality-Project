@@ -69,7 +69,9 @@ public class RunDecoderState : SentisWhisperState
                 stateMachine.SetState(WhisperStateID.StartTranscription);
                 break;
             default:
-                stateMachine.SetState(nextStateId);
+                //stateMachine.SetState(nextStateId);
+                stateMachine.ClearStates();
+                whisper.StartEngine();
                 break;
         }
     }
@@ -100,7 +102,6 @@ public class RunDecoderState : SentisWhisperState
             {
                 //whisper.SpeechText.color = new Color(1f, 0.6133823f, 0f);
                 whisper.textSO.text += " " + outputString;
-                whisper.CheckWMP?.Invoke(outputString);
                 whisper.CheckFillerWord?.Invoke(outputString);
             }
             else
@@ -128,6 +129,7 @@ public class RunDecoderState : SentisWhisperState
             Debug.Log("No audio clip on the list");
             whisper.audioClipQueue.Clear();
             whisper.AudioClipList.Clear();
+            whisper.CheckWMP?.Invoke();
             stage = 3;
         }
         else

@@ -32,6 +32,7 @@ public class RunSpectroState : SentisWhisperState
         whisper.SpectroEngine.Schedule(input);
         spectroOutput = whisper.SpectroEngine.PeekOutput() as Unity.InferenceEngine.Tensor<float>;
         whisper.SpectroOutput = spectroOutput.ReadbackAndClone(); //CPU copy of the output tensor
+        
     }
 
     public override void Exit()

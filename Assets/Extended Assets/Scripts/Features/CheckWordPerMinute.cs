@@ -16,6 +16,8 @@ public class CheckWordPerMinute : MonoBehaviour
     private FloatValue time;
     [SerializeField]
     private FloatValue WPM;
+    [SerializeField]
+    private StringValue text;
     public float words;
     public float total;
 
@@ -40,35 +42,57 @@ public class CheckWordPerMinute : MonoBehaviour
         time.ResetValue();
     }
 
-    void CountWPM(string responseText)
+    // NEW COUNT WPM
+    void CountWPM()
     {
         //WPM.ResetValue();
-        int newWordCount = CountWords(responseText);
+        int newWordCount = CountWords(text.text);
         Debug.Log(newWordCount);
-        // Update word count
-        //WPM.value += newWordCount;
-        words = newWordCount;
 
         if (time.value < 60)
         {
-            WPM.listValues.Add(words);
-            WPM.total = WPM.listValues.Sum();
-            WPM.value = WPM.total;
+            WPM.total = newWordCount;
+            WPM.value = newWordCount;
+            WPM.mean = newWordCount;
         }
         else
         {
-            //// Calculate WPM OLD !!!!!!!!!!!!!!
-            //float durationInMinutes = time.value / 60f; // Convert seconds to minutes
-            //WPM.listValues.Add(words);
-            //WPM.value += words / durationInMinutes;
-
-            // Calculate WPM NEW !!!!!!!!!!!!!!!!
             float durationInMinutes = time.value / 60f; // Convert seconds to minutes
-            WPM.listValues.Add(words);
-            WPM.total = WPM.listValues.Sum();
-            WPM.value = WPM.total / durationInMinutes;
+            WPM.mean = newWordCount / durationInMinutes;
+            WPM.total = WPM.mean;
+            WPM.value = WPM.mean;
         }
     }
+
+    //void CountWPM(string responseText)
+    //{
+    //    //WPM.ResetValue();
+    //    int newWordCount = CountWords(responseText);
+    //    Debug.Log(newWordCount);
+    //    // Update word count
+    //    //WPM.value += newWordCount;
+    //    words = newWordCount;
+
+    //    if (time.value < 60)
+    //    {
+    //        WPM.listValues.Add(words);
+    //        WPM.total = WPM.listValues.Sum();
+    //        WPM.value = WPM.total;
+    //    }
+    //    else
+    //    {
+    //        //// Calculate WPM OLD !!!!!!!!!!!!!!
+    //        //float durationInMinutes = time.value / 60f; // Convert seconds to minutes
+    //        //WPM.listValues.Add(words);
+    //        //WPM.value += words / durationInMinutes;
+
+    //        // Calculate WPM NEW !!!!!!!!!!!!!!!!
+    //        float durationInMinutes = time.value / 60f; // Convert seconds to minutes
+    //        WPM.listValues.Add(words);
+    //        WPM.total = WPM.listValues.Sum();
+    //        WPM.value = WPM.total / durationInMinutes;
+    //    }
+    //}
 
     int CountWords(string text)
     {

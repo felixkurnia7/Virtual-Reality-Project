@@ -19502,12 +19502,6 @@ LightProbeGroup:
   - {x: 1.4288483, y: 1.9722364, z: 0.6409011}
   - {x: -1.138983, y: 1.9722364, z: 0.6409011}
   m_Dering: 1
---- !u!4 &1295253753 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 414131248553743503, guid: a5e4ca3a859f93147b1538f9bc7c42a8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1723244773}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1300224040
 GameObject:
   m_ObjectHideFlags: 0
@@ -26712,6 +26706,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 303859695}
     m_Modifications:
+    - target: {fileID: 8987983883401293528, guid: 4bd055eb794f24c4491318d9bd0d3358,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 11400000, guid: f0f451d7495dddc4ab36b7108432f163,
+        type: 2}
     - target: {fileID: 8987983883401293528, guid: 4bd055eb794f24c4491318d9bd0d3358,
         type: 3}
       propertyPath: wpmUI
@@ -36874,7 +36874,7 @@ PrefabInstance:
         type: 3}
       propertyPath: head.vrTarget
       value: 
-      objectReference: {fileID: 1295253753}
+      objectReference: {fileID: 8489342292605987367}
     - target: {fileID: 7722857121161552238, guid: 907e621e85a56684fb0cc9d408d7fab5,
         type: 3}
       propertyPath: leftHand.vrTarget
@@ -41393,6 +41393,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8d337e8bc7ac4498e0df29e7b8bd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &8489342292605987367 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3862801604326586565, guid: b58f05d2dc86dbf488c4554552272586,
+    type: 3}
+  m_PrefabInstance: {fileID: 8489342292605987363}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8500246258600528188
 GameObject:
   m_ObjectHideFlags: 0
