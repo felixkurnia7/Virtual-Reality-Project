@@ -71,7 +71,9 @@ public class RunEncoderState : SentisWhisperState
 
     public override void Exit()
     {
+        Debug.Log("Encoded Audio Dispose");
         encodedAudio.Dispose();
+        Debug.Log("whisper spectroOutput Dispose");
         whisper.SpectroOutput.Dispose();
         base.Exit();
     }

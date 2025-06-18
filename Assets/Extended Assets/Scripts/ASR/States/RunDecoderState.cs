@@ -70,8 +70,9 @@ public class RunDecoderState : SentisWhisperState
                 break;
             default:
                 //stateMachine.SetState(nextStateId);
-                stateMachine.ClearStates();
-                whisper.StartEngine();
+                whisper.StopEngine();
+                //stateMachine.ClearStates();
+                //whisper.StartEngine();
                 break;
         }
     }
@@ -161,11 +162,14 @@ public class RunDecoderState : SentisWhisperState
 
     public override void Exit()
     {
+        Debug.Log("tokens Prediction Dispose");
         tokensPredictions.Dispose();
+        Debug.Log("CPU tokens Prediction Dispose");
         cpuTokensPredictions.Dispose();
+        Debug.Log("Encoded Dispose");
         whisper.EncodedAudio.Dispose();
 
-        GC.Collect(); //Garbage collection
+        //GC.Collect(); //Garbage collection
         base.Exit();
     }
 }

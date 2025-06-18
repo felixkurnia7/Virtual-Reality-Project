@@ -1,5 +1,5 @@
 using LudicWorlds;
-
+using Unity.InferenceEngine;
 using UnityEngine;
 
 public class LoadDecoderState : SentisWhisperState
@@ -33,10 +33,12 @@ public class LoadDecoderState : SentisWhisperState
 
     private void LoadDecoder() 
     {
-        Unity.InferenceEngine.Model decoder = Unity.InferenceEngine.ModelLoader.Load(whisper.decoderAsset);
+        Model decoder = ModelLoader.Load(whisper.decoderAsset);
+
+        //Worker decoder = new Worker(ModelLoader.Load(whisper.decoderAsset), BackendType.GPUCompute)
 
         // Define the functional graph of the model.
-        var graph = new Unity.InferenceEngine.FunctionalGraph();
+        var graph = new FunctionalGraph();
 
         // Set the inputs of the graph from the original model inputs and return an array of functional tensors
         var inputs = graph.AddInputs(decoder);
@@ -44,15 +46,15 @@ public class LoadDecoderState : SentisWhisperState
         // Apply the model forward function to the inputs to get the source model functional outputs.
         // Sentis will destructively change the loaded source model. To avoid this at the expense of
         // higher memory usage and compile time, use the Functional.ForwardWithCopy method.
-        Unity.InferenceEngine.FunctionalTensor[] outputs = Unity.InferenceEngine.Functional.Forward(decoder, inputs);
+        FunctionalTensor[] outputs = Functional.Forward(decoder, inputs);
 
         // Calculate the argMax of the first output with the functional API.
-        Unity.InferenceEngine.FunctionalTensor argmaxOutput = Unity.InferenceEngine.Functional.ArgMax(outputs[0],2);
+        FunctionalTensor argmaxOutput = Functional.ArgMax(outputs[0],2);
 
         // Build the model from the graph using the `Compile` method with the desired outputs.
-        Unity.InferenceEngine.Model decoderWithArgMax = graph.Compile(argmaxOutput);
+        Model decoderWithArgMax = graph.Compile(argmaxOutput);
 
-        whisper.DecoderEngine = new Unity.InferenceEngine.Worker(decoderWithArgMax, backend);
+        whisper.DecoderEngine = new Worker(decoderWithArgMax, BackendType.GPUCompute);
     }
 
     public override void Exit()

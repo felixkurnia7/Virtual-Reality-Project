@@ -65,17 +65,17 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
         WhiteSpaceCharacters = new int[256];
         SetupWhiteSpaceShifts();
         SetTokens();
-        base.Awake();
+        //base.Awake();
     }
 
     protected override void Start()
     {
-        base.Start(); // <- Init States
+        //base.Start(); // <- Init States
     }
 
     protected override void InitStates()
     {
-        StartEngine();
+        Debug.Log("Init States");
     }
 
     public void StartEngine()
@@ -156,12 +156,29 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
         return !(('!' <= c && c <= '~') || ('�' <= c && c <= '�') || ('�' <= c && c <= '�'));
     }
 
+    public void StopEngine()
+    {
+        Debug.Log("On Destroy Run Whisper");
+        Debug.Log("Decoder Engine Dispose");
+        DecoderEngine.Dispose();
+        Debug.Log("Encoder Engine Dispose");
+        EncoderEngine.Dispose();
+        Debug.Log("Spectro Engine Dispose");
+        SpectroEngine.Dispose();
+
+        base.OnDestroy();
+    }
+
     protected override void OnDestroy()
     {
-        base.OnDestroy();
-
+        Debug.Log("On Destroy Run Whisper");
+        Debug.Log("Decoder Engine Dispose");
         DecoderEngine.Dispose();
+        Debug.Log("Encoder Engine Dispose");
         EncoderEngine.Dispose();
+        Debug.Log("Spectro Engine Dispose");
         SpectroEngine.Dispose();
+
+        base.OnDestroy();
     }
 }

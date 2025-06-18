@@ -37,6 +37,7 @@ public class RunSpectroState : SentisWhisperState
 
     public override void Exit()
     {
+        Debug.Log("Spectro.Output Dispose");
         spectroOutput.Dispose();
         base.Exit();
     }
