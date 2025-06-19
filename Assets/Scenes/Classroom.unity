@@ -3259,6 +3259,18 @@ PrefabInstance:
       propertyPath: micRecorder
       value: 
       objectReference: {fileID: 533274810}
+    - target: {fileID: 9018681837948476979, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: decoderAsset
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 77f567e5525069546aee898e3f4a5d82,
+        type: 3}
+    - target: {fileID: 9018681837948476979, guid: 1ef1fb592c36e7849b73cbfad80c5555,
+        type: 3}
+      propertyPath: encoderAsset
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 8d5b3c478920d7e40aa49bc86b0a9fb2,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -65,12 +65,12 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
         WhiteSpaceCharacters = new int[256];
         SetupWhiteSpaceShifts();
         SetTokens();
-        //base.Awake();
+        base.Awake();
     }
 
     protected override void Start()
     {
-        //base.Start(); // <- Init States
+        base.Start(); // <- Init States
     }
 
     protected override void InitStates()

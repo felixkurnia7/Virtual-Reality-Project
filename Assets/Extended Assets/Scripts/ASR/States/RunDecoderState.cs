@@ -69,8 +69,8 @@ public class RunDecoderState : SentisWhisperState
                 stateMachine.SetState(WhisperStateID.StartTranscription);
                 break;
             default:
-                //stateMachine.SetState(nextStateId);
-                whisper.StopEngine();
+                stateMachine.SetState(nextStateId);
+                //whisper.StopEngine();
                 //stateMachine.ClearStates();
                 //whisper.StartEngine();
                 break;
