@@ -184,9 +184,9 @@ public class PracticeSoftSkills : MonoBehaviour
                 //secondaryButton.SetActive(false);
                 break;
             default:
+                speechRecognitionSystem.SetActive(false);
                 speechRecognitionUI.SetActive(false);
                 micRecorder.SetActive(false);
-                speechRecognitionSystem.SetActive(false);
                 checkVolumeSystem.SetActive(false);
                 CheckWPMSystem.SetActive(false);
                 welcomeSR.SetActive(false);

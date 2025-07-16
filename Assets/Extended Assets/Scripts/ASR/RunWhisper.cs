@@ -61,7 +61,7 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
 
     protected override void Awake()
     {
-        IsReady = false;
+        IsReady = true;
         WhiteSpaceCharacters = new int[256];
         SetupWhiteSpaceShifts();
         SetTokens();
@@ -180,5 +180,10 @@ public class RunWhisper : GameObjectStateMachine<WhisperStateID>
         SpectroEngine.Dispose();
 
         base.OnDestroy();
+    }
+
+    private void OnApplicationQuit()
+    {
+        StopEngine();
     }
 }

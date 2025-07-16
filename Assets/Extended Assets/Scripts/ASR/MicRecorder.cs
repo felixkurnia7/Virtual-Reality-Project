@@ -112,7 +112,7 @@ public class MicRecorder : MonoBehaviour
         {
             StopRecording();
             mic.SetActive(false);
-            CountVolume();
+            
             //TrimSilence();
 
             if (audioClip.channels > 1)
@@ -120,6 +120,7 @@ public class MicRecorder : MonoBehaviour
               //We want to feed a mono audioClip to the 'Whisper' model.
                 ConvertToMono();
             }
+            CountVolume();
         }
     }
         

@@ -44,6 +44,8 @@ public class Training : MonoBehaviour
 
     [Header("Systems")]
     [SerializeField]
+    private GameObject micRecorder;
+    [SerializeField]
     private GameObject speechRecognition;
     [SerializeField]
     private GameObject eyeContactSystem;
@@ -134,6 +136,7 @@ public class Training : MonoBehaviour
         eyeContactUI.ResetEyeContact();
         //whiteboardUI.SetActive(false);
 
+        micRecorder.SetActive(true);
         speechRecognition.SetActive(true);
         eyeContactSystem.SetActive(true);
         checkVolumeSystem.SetActive(true);
@@ -159,18 +162,19 @@ public class Training : MonoBehaviour
         Char_NPC4.GetComponent<NPCLookAtPlayer>().StartTraining();
         Char_NPC5.GetComponent<NPCLookAtPlayer>().StartTraining();
 
-        chair1.GetComponent<ObjLookAtPlayer>().StartTraining();
-        chair2.GetComponent<ObjLookAtPlayer>().StartTraining();
-        chair3.GetComponent<ObjLookAtPlayer>().StartTraining();
-        chair4.GetComponent<ObjLookAtPlayer>().StartTraining();
-        chair5.GetComponent<ObjLookAtPlayer>().StartTraining();
+        //chair1.GetComponent<ObjLookAtPlayer>().StartTraining();
+        //chair2.GetComponent<ObjLookAtPlayer>().StartTraining();
+        //chair3.GetComponent<ObjLookAtPlayer>().StartTraining();
+        //chair4.GetComponent<ObjLookAtPlayer>().StartTraining();
+        //chair5.GetComponent<ObjLookAtPlayer>().StartTraining();
     }
 
-    public void StopTraining()
+    private void StopTraining()
     {
         timerCanvas.SetActive(false);
 
-        speechRecognition.SetActive(false);
+        micRecorder.SetActive(false);
+        //speechRecognition.SetActive(false);
         eyeContactSystem.SetActive(false);
         checkVolumeSystem.SetActive(false);
         handMovementSystem.SetActive(false);
@@ -191,10 +195,20 @@ public class Training : MonoBehaviour
         Char_NPC5.SetActive(false);
     }
 
+    public void SetChair()
+    {
+        chair1.GetComponent<ObjLookAtPlayer>().StartTraining();
+        chair2.GetComponent<ObjLookAtPlayer>().StartTraining();
+        chair3.GetComponent<ObjLookAtPlayer>().StartTraining();
+        chair4.GetComponent<ObjLookAtPlayer>().StartTraining();
+        chair5.GetComponent<ObjLookAtPlayer>().StartTraining();
+    }
+
     private void EndSession()
     {
         timerCanvas.SetActive(false);
 
+        micRecorder.SetActive(false);
         speechRecognition.SetActive(false);
         eyeContactSystem.SetActive(false);
         checkVolumeSystem.SetActive(false);
@@ -209,11 +223,11 @@ public class Training : MonoBehaviour
         preparationUI.SetActive(true);
         //whiteboardUI.SetActive(true);
 
-        chair1.GetComponent<ObjLookAtPlayer>().StopTraining();
-        chair2.GetComponent<ObjLookAtPlayer>().StopTraining();
-        chair3.GetComponent<ObjLookAtPlayer>().StopTraining();
-        chair4.GetComponent<ObjLookAtPlayer>().StopTraining();
-        chair5.GetComponent<ObjLookAtPlayer>().StopTraining();
+        //chair1.GetComponent<ObjLookAtPlayer>().StopTraining();
+        //chair2.GetComponent<ObjLookAtPlayer>().StopTraining();
+        //chair3.GetComponent<ObjLookAtPlayer>().StopTraining();
+        //chair4.GetComponent<ObjLookAtPlayer>().StopTraining();
+        //chair5.GetComponent<ObjLookAtPlayer>().StopTraining();
 
         Char_NPC1.SetActive(false);
         Char_NPC2.SetActive(false);
