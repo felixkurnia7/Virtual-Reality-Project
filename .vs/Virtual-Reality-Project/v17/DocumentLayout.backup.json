@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\runwhisper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\ludicworlds\\statemachine\\gameobjectstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\ludicworlds\\statemachine\\gameobjectstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\states\\whisperreadystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\whisperreadystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|d:\\felix 20\\unity project\\virtual-reality-project\\assets\\extended assets\\scripts\\asr\\states\\sentiswhisperstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\states\\sentiswhisperstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C77A59C1-014A-77BF-C9F3-40358E72DA17}|Assembly-CSharp.csproj|solutionrelative:assets\\extended assets\\scripts\\asr\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,11 +62,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "GameObjectStateMachine.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
+              "RelativeToolTip": "Assets\\LudicWorlds\\StateMachine\\GameObjectStateMachine.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA4wEYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:38:58.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WhisperReadyState.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\WhisperReadyState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:38:37.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SentisWhisperState.cs",
+              "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\SentisWhisperState.cs",
+              "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\SentisWhisperState.cs",
+              "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\SentisWhisperState.cs",
+              "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\SentisWhisperState.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:38:21.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "LoadSpectroState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\LoadSpectroState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\LoadSpectroState.cs",
@@ -66,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "LoadEncoderState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\LoadEncoderState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\LoadEncoderState.cs",
@@ -78,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "StartTranscriptionState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\StartTranscriptionState.cs",
@@ -90,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RunSpectroState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
@@ -98,12 +149,11 @@
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunSpectroState.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:48:38.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:48:38.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RunEncoderState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
@@ -111,12 +161,11 @@
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunEncoderState.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAAAEcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:48:37.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:48:37.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CheckWordPerMinute.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\Features\\CheckWordPerMinute.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\Features\\CheckWordPerMinute.cs",
@@ -128,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RunDecoderState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\RunDecoderState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunDecoderState.cs",
@@ -136,8 +185,7 @@
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\States\\RunDecoderState.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAA6wEUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:37:55.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:37:55.814Z"
             },
             {
               "$type": "Document",
@@ -147,14 +195,14 @@
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
               "ToolTip": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
               "RelativeToolTip": "Assets\\Extended Assets\\Scripts\\ASR\\RunWhisper.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAA6wD8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAEgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T08:25:25.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MicRecorder.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\MicRecorder.cs",
@@ -167,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LoadDecoderState.cs",
               "DocumentMoniker": "D:\\Felix 20\\Unity project\\Virtual-Reality-Project\\Assets\\Extended Assets\\Scripts\\ASR\\States\\LoadDecoderState.cs",
               "RelativeDocumentMoniker": "Assets\\Extended Assets\\Scripts\\ASR\\States\\LoadDecoderState.cs",
