@@ -16,6 +16,9 @@ scopes = {
 	"picker_visibility_flags.075BCD15" = "264"
 	"picker_item_size.075BCD15" = "96"
 	"picker_inspector.075BCD15" = "0"
+	"last_search.66F56946" = "e65b36917a3215c45b82ee723189b162"
+	"OpenInspectorPreview.66F56946" = "0"
+	"currentGroup.66F56946" = "scene"
 }
 providers = {
 	adb = {
@@ -72,6 +75,9 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"e65b36917a3215c45b82ee723189b162"
+	""
+	"aa558639d0c8a7c4d93af3b753338b8e"
 	"primary"
 	"acti"
 	"left ac"
@@ -86,7 +92,7 @@ expandedQueries = [
 ]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
-helperWidgetCurrentArea = "all"
+helperWidgetCurrentArea = "h:"
 disabledIndexers = ""
 minIndexVariations = 2
 findProviderIndexHelper = true
