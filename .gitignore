@@ -3,6 +3,7 @@ Library/*
 Temp/*
 Logs/*
 
+vocab.json
 .vsconfig
 *.sln
 /Library/*
