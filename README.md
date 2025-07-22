@@ -20,12 +20,12 @@ Hand movement value is based on device controller movement with maximum value 10
 <h2>How To Use Speech Recognition</h2>
 To Implement the speech recognition model:
 
-1. Download all of the .onnx model from <a href="https://drive.google.com/drive/folders/1Pfht0hF1S8TaZ4XhocEWLq2CBLTIA3Y3?usp=sharing">here</a>.
-2. Import the .onnx model to the project.
-3. Drag the decoder_model.onnx to the decorder model field on RunWhisper.cs
+1. Download all of the .onnx model and vocab.json from <a href="https://drive.google.com/drive/folders/1Pfht0hF1S8TaZ4XhocEWLq2CBLTIA3Y3?usp=sharing">here</a>.
+2. Import the .onnx model and vocab.json to the project.
+3. Drag the decoder_model.onnx to the decoder model field on RunWhisper.cs
 4. Drag the encoder_model.onnx to the encoder model field on RunWhisper.cs
 5. Drag the logMelSpectro.sentis to spectro model field on RunWhisper.cs
-6. Drag the vocab.json to vocab field on RunWhisper.cs
+6. Drag the new vocab.json to vocab field on RunWhisper.cs
 7. Hold secondary button to start recording and release it to stop recording
 8. Press primary button to transcibe and the text will appear in a few seconds.
 
